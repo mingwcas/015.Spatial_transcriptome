@@ -1,0 +1,101 @@
+name: Spatial Transcriptomics Batch Processing
+
+on:
+  # 北京时间 0:00 - 8:00 AM = UTC 前一天 16:00 - 当天 0:00
+  schedule:
+    - cron: '0 16-23 * * *'   # UTC 16:00-23:59 (北京时间 0:00-7:59)
+    - cron: '0 0-7 * * *'      # UTC 00:00-07:59 (北京时间 8:00-15:59)
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: '每轮处理的论文数量'
+        required: false
+        default: '3'
+        type: string
+
+jobs:
+  prepare-batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      has_pending: ${{ steps.check.outputs.has_pending }}
+      batch_list: ${{ steps.gen_batch.outputs.batch_list }}
+      next_papers: ${{ steps.gen_batch.outputs.next_papers }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check pending papers
+        id: check
+        run: |
+          count=$(grep -c '⏳ 待处理' 09_生信分析/progress.md 2>/dev/null || echo 0)
+          echo "待处理论文数: $count"
+          if [ "$count" -gt 0 ]; then
+            echo "has_pending=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_pending=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate batch list
+        id: gen_batch
+        if: steps.check.outputs.has_pending == 'true'
+        run: |
+          # 提取待处理论文（按顺序取前N篇）
+          BATCH_SIZE="${INPUT_BATCH_SIZE:-3}"
+          echo "每轮处理数量: $BATCH_SIZE"
+          # 找出前BATCH_SIZE篇待处理论文
+          grep '⏳ 待处理' 09_生信分析/progress.md \
+            | head -n "${BATCH_SIZE}" \
+            | awk '{print NR": "$0}' \
+            | while IFS= read -r line; do
+                echo "BATCH_ITEM=$line" >> $GITHUB_OUTPUT
+              done
+          # 合并为一个JSON数组
+          echo "next_papers=$(grep '⏳ 待处理' 09_生信分析/progress.md | head -n 3 | jq -Rs '.')" >> $GITHUB_OUTPUT
+
+      - name: Upload batch list artifact
+        if: steps.check.outputs.has_pending == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-${{ github.run_number }}
+          path: batch_list.txt
+          retention-days: 1
+
+      - name: No pending papers
+        if: steps.check.outputs.has_pending == 'false'
+        run: echo "✅ 所有论文已完成，无需处理"
+
+  # 占位 job：实际处理由 DeepSeek Harness Session 完成
+  # 本 workflow 负责调度提醒和进度更新
+  notify-session:
+    needs: prepare-batch
+    if: needs.prepare-batch.outputs.has_pending == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create reminder
+        run: |
+          echo "=========================================="
+          echo "🔔 DeepSeek Batch Trigger"
+          echo "=========================================="
+          echo "触发时间: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "批次论文数: 3"
+          echo ""
+          echo "请在 DeepSeek Harness 中执行以下操作："
+          echo "1. 读取 09_生信分析/progress.md"
+          echo "2. 按顺序处理前3篇待处理论文"
+          echo "3. 每篇完成后更新 progress.md 中对应行的状态"
+          echo ""
+          echo "提示: 可通过 workflow_dispatch 手动触发测试"
+          echo "=========================================="
+
+      - name: Commit if any completed work exists
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto: Batch ready $(date +'%Y-%m-%d %H:%M')"
+          file_pattern: |
+            09_生信分析/**/*.md
+            09_生信分析/progress.md
