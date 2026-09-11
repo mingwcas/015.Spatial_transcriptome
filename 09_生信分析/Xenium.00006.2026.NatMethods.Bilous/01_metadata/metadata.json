@@ -1,0 +1,53 @@
+{
+  "file": {
+    "name": "02.2026.NatMethods.Xenium_sensitivity_specificity_contamination.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/08_平台深度解析/reference/02.2026.NatMethods.Xenium_sensitivity_specificity_contamination.pdf",
+    "size_bytes": 25973677,
+    "sha256": "7dabf47bcf5f1d30f47a95e7807efca98814c7b705987489c03aacaab390f82d"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "Resolving sensitivity, specificity and signal contamination in Xenium spatial transcriptomics",
+    "author": "Mariia Bilous",
+    "subject": "Nature Methods, doi:10.1038/s41592-026-03089-8",
+    "keywords": "",
+    "creation_date": "D:20260610153515+05'30'",
+    "mod_date": "D:20260610153842+05'30'",
+    "producer": "",
+    "pages": 30,
+    "extracted_doi": "10.1038/s41592-026-03089-8"
+  },
+  "code_availability_hint": "Code availability’ ",
+  "data_availability_hint": "Data availability’ section). Each sample was annotated indepen-",
+  "crossref": {
+    "title": "Resolving sensitivity, specificity and signal contamination in Xenium spatial transcriptomics",
+    "journal": "Nature Methods",
+    "authors": [
+      "Bilous, Mariia",
+      "Buszta, Daria",
+      "Bac, Jonathan",
+      "Kang, Senbai",
+      "Dong, Yixing",
+      "Tissot, Stephanie",
+      "Andre, Sylvie",
+      "Alexandre Gaveta, Marina",
+      "Voize, Christel",
+      "Peters, Solange",
+      "Homicsko, Krisztian",
+      "Gottardo, Raphael"
+    ],
+    "published": [
+      2026,
+      4,
+      30
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 15,
+    "license": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "abstract": "Abstract\n                  Spatial transcriptomics enables high-resolution gene expression mapping in intact tissues. Xenium is widely adopted for its reliability, accessibility and data quality, yet the properties and limitations of Xenium-derived data remain poorly characterized. Here we present one of the most comprehensive Xenium datasets so far, encompassing over 40 breast and lung tumor sections profiled using diverse gene panels. Leveraging this resource, we systematically dissect technical noise—including transcript spillover—along with assay specificity, panel performance and segmentation strategies. We demonstrate that single-nucleus RNA sequencing enables precise quantification of transcript contamination. Building on these insights, we introduce SPLIT (Spatial Purification of Layered Intracellular Transcripts), a method that improves signal purity by resolving mixed transcriptomic signals. SPLIT enhances background correction and cell-type resolution and enables the revelation of T-cell exhaustion signatures associated with malignant cell colocalization—signals that would otherwise remain obscured. Together, our findings provide a critical benchmark for Xenium performance and introduce a scalable strategy for signal refinement."
+  }
+}

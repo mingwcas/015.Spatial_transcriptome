@@ -1,0 +1,60 @@
+{
+  "file": {
+    "name": "02.2025.NatCommun.Spatial_benchmarking_Xenium_MERSCOPE_CosMx.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/02.2025.NatCommun.Spatial_benchmarking_Xenium_MERSCOPE_CosMx.pdf",
+    "size_bytes": 3928699,
+    "sha256": "93d3d194214a4af70fca56e701e1c3854245e667c76e4f1f109f88fa532bc4d9"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "Systematic benchmarking of high-throughput subcellular spatial transcriptomics platforms across human tumors",
+    "author": "Pengfei Ren",
+    "subject": "Nature Communications, doi:10.1038/s41467-025-64292-3",
+    "keywords": "",
+    "creation_date": "D:20250922164515+05'30'",
+    "mod_date": "D:20251017172450+02'00'",
+    "producer": "iText® 5.5.13.4 ©2000-2024 iText Group NV (SPRINGER SBM; licensed version)",
+    "pages": 16,
+    "extracted_doi": "10.1038/s41467-025-64292-3"
+  },
+  "code_availability_hint": "Code availability",
+  "data_availability_hint": "Data availability",
+  "crossref": {
+    "title": "Systematic benchmarking of high-throughput subcellular spatial transcriptomics platforms across human tumors",
+    "journal": "Nature Communications",
+    "authors": [
+      "Ren, Pengfei",
+      "Zhang, Rui",
+      "Wang, Yunfeng",
+      "Zhang, Peng",
+      "Luo, Ce",
+      "Wang, Suyan",
+      "Li, Xiaohong",
+      "Zhang, Zongxu",
+      "Zhao, Yanping",
+      "He, Yufeng",
+      "Zhang, Haorui",
+      "Li, Yufeng",
+      "Gao, Zhidong",
+      "Zhang, Xiuping",
+      "Zhao, Yahui",
+      "Liu, Zhihua",
+      "Meng, Yuanguang",
+      "Zhang, Zhe",
+      "Zeng, Zexian"
+    ],
+    "published": [
+      2025,
+      10,
+      17
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 79,
+    "license": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "abstract": "Abstract\n                  Recent advancements in spatial transcriptomics technologies have significantly enhanced resolution and throughput, underscoring an urgent need for systematic benchmarking. Here, we generate serial tissue sections from colon adenocarcinoma, hepatocellular carcinoma, and ovarian cancer samples for systematic evaluation. Using these uniformly processed samples, we generate spatial transcriptomics data across four high-throughput platforms with subcellular resolution: Stereo-seq v1.3, Visium HD FFPE, CosMx 6K, and Xenium 5K. To establish ground truth datasets, we profile proteins on tissue sections adjacent to all platforms using CODEX and perform single-cell RNA sequencing on the same samples. Leveraging manual nuclear segmentation and detailed annotations, we systematically assess each platform’s performance across capture sensitivity, specificity, diffusion control, cell segmentation, cell annotation, spatial clustering, and concordance with adjacent CODEX. The uniformly generated and processed multi-omics dataset could advance computational method development and biological discoveries. The dataset is accessible via SPATCH, a user-friendly web server for visualization and download."
+  }
+}

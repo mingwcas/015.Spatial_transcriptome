@@ -1,0 +1,35 @@
+{
+  "file": {
+    "name": "02.2025.NatMethods.Xenium_data_utility_optimization.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/02.2025.NatMethods.Xenium_data_utility_optimization.pdf",
+    "size_bytes": 12319932,
+    "sha256": "364a07d8b7d027532f8f39eb0164803dfbb8edbe20fcad31ae5bab6b86f743f8"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creation_date": "",
+    "mod_date": "",
+    "producer": "",
+    "pages": 30,
+    "extracted_doi": null,
+    "note": "IMAGE-BASED PDF: Pages 1-21 rendered as blank 32KB images (no extractable text). Pages 22-30 contain OCR-extracted content from large images. Full Methods text not available in OCR."
+  },
+  "paper": {
+    "doi": "10.1038/s41592-025-02617-2",
+    "title": "Optimizing Xenium In Situ data utility by quality assessment and best-practice analysis workflows",
+    "first_author": "Marco Salas",
+    "corresponding_author": "Mats Nilsson",
+    "journal": "Nature Methods",
+    "year": 2025,
+    "publication_date": "2025-03-13"
+  },
+  "code_availability_hint": "GitHub: https://github.com/Moldia/Xenium_benchmarking v1.2.0",
+  "data_availability_hint": "Zenodo: 10.5281/zenodo.10566172; 10.5281/zenodo.11124988; 10.5281/zenodo.11121221; 10.5281/zenodo.11120307; 10.5281/zenodo.11619309",
+  "crossref": {
+    "error": "no_doi_found_in_pdf"
+  }
+}
