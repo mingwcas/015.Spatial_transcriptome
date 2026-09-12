@@ -213,4 +213,3 @@ INPUT_VALIDATED
 - 用户明确授权一个 DOI 后，可完成发布、等待、精确采纳、下载和 PDF 验证。
 - Hermes 可从 `~/.hermes/skills/` 发现该技能并调用 CLI。
 - 未安装 Hermes 的环境仍可直接通过 Node.js CLI 使用。
-

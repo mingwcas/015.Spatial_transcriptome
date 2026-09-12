@@ -531,4 +531,3 @@ Expected: final JSON state `VERIFIED`, absolute PDF path, byte size, SHA-256, de
 Run: `git status --short` and `git diff -- tools/ablesci-literature-assist .gitignore`.
 
 Expected: no `.env`, state, downloads, screenshots, or unrelated workspace files are staged.
-
