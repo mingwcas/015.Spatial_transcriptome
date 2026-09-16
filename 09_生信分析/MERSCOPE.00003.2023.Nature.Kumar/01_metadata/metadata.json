@@ -1,0 +1,81 @@
+{
+  "file": {
+    "name": "03.2023.Nature.MERSCOPE_human_breast_atlas.pdf",
+    "path": "tmp_平台代表论文/pdfs/03.2023.Nature.MERSCOPE_human_breast_atlas.pdf",
+    "size_bytes": 28598629,
+    "sha256": "63ffc1f8f6f2f587a7501974321a40caa5ba1f134de4fc6850e25a458cab3d76"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "A spatially resolved single-cell genomic atlas of the adult human breast",
+    "author": "Tapsi Kumar",
+    "subject": "Nature, doi:10.1038/s41586-023-06252-9",
+    "keywords": "",
+    "creation_date": "D:20230624142213+05'30'",
+    "mod_date": "D:20230624142421+05'30'",
+    "producer": "",
+    "pages": 37,
+    "extracted_doi": "10.1038/s41586-023-06252-9"
+  },
+  "code_availability_hint": "code availability ",
+  "data_availability_hint": "Data availability",
+  "crossref": {
+    "title": "A spatially resolved single-cell genomic atlas of the adult human breast",
+    "journal": "Nature",
+    "authors": [
+      "Kumar, Tapsi",
+      "Nee, Kevin",
+      "Wei, Runmin",
+      "He, Siyuan",
+      "Nguyen, Quy H.",
+      "Bai, Shanshan",
+      "Blake, Kerrigan",
+      "Pein, Maren",
+      "Gong, Yanwen",
+      "Sei, Emi",
+      "Hu, Min",
+      "Casasent, Anna K.",
+      "Thennavan, Aatish",
+      "Li, Jianzhuo",
+      "Tran, Tuan",
+      "Chen, Ken",
+      "Nilges, Benedikt",
+      "Kashikar, Nachiket",
+      "Braubach, Oliver",
+      "Ben Cheikh, Bassem",
+      "Nikulina, Nadya",
+      "Chen, Hui",
+      "Teshome, Mediget",
+      "Menegaz, Brian",
+      "Javaid, Huma",
+      "Nagi, Chandandeep",
+      "Montalvan, Jessica",
+      "Lev, Tatyana",
+      "Mallya, Sharmila",
+      "Tifrea, Delia F.",
+      "Edwards, Robert",
+      "Lin, Erin",
+      "Parajuli, Ritesh",
+      "Hanson, Summer",
+      "Winocour, Sebastian",
+      "Thompson, Alastair",
+      "Lim, Bora",
+      "Lawson, Devon A.",
+      "Kessenbrock, Kai",
+      "Navin, Nicholas"
+    ],
+    "published": [
+      2023,
+      6,
+      28
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 270,
+    "license": [
+      "https://www.springernature.com/gp/researchers/text-and-data-mining",
+      "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    ],
+    "abstract": null
+  }
+}

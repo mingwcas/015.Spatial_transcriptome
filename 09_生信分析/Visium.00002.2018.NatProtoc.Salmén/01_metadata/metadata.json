@@ -1,0 +1,47 @@
+{
+  "file": {
+    "name": "01.2018.NatProtoc.Visium_solid_phase_RNA_capture.pdf",
+    "path": "tmp_平台代表论文/pdfs/01.2018.NatProtoc.Visium_solid_phase_RNA_capture.pdf",
+    "size_bytes": 3455091,
+    "sha256": "343691a311df399b5c9893f06a72a8f42247e66211579bb2a8bb8e452fbf40a1"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "Barcoded solid-phase RNA capture for Spatial Transcriptomics profiling in mammalian tissue sections",
+    "author": "Fredrik Salmén",
+    "subject": "Nature Protocols, doi:10.1038/s41596-018-0045-2",
+    "keywords": "",
+    "creation_date": "D:20181020101842+05'30'",
+    "mod_date": "D:20181020101935+05'30'",
+    "producer": "",
+    "pages": 34,
+    "extracted_doi": "10.1038/s41596-018-0045-2"
+  },
+  "code_availability_hint": null,
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Barcoded solid-phase RNA capture for Spatial Transcriptomics profiling in mammalian tissue sections",
+    "journal": "Nature Protocols",
+    "authors": [
+      "Salmén, Fredrik",
+      "Ståhl, Patrik L.",
+      "Mollbrink, Annelie",
+      "Navarro, José Fernández",
+      "Vickovic, Sanja",
+      "Frisén, Jonas",
+      "Lundeberg, Joakim"
+    ],
+    "published": [
+      2018,
+      10,
+      23
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 204,
+    "license": [
+      "http://www.springer.com/tdm"
+    ],
+    "abstract": null
+  }
+}
