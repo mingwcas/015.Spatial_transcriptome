@@ -13,6 +13,7 @@
 | # | 平台 | 年份 | 期刊 | 第一作者 | 目录 |
 |---|------|------|------|------|------|
 | 01 | Visium | 2016 | Science | Ståhl | `09_生信分析/Visium.00001.2016.Science.Stahl/` |
+| 02 | Visium | 2018 | NatProtoc | Salmén | `09_生信分析/Visium.00002.2018.NatProtoc.Salmén/` |
 | 03 | Visium HD | 2025 | NatGenet | Oliveira | `09_生信分析/Visium.00003.2025.NatGenet.Oliveira/` |
 | 04 | Xenium | 2025 | NatCommun | Ren | `09_生信分析/Xenium.00004.2025.NatCommun.Ren/` |
 | 05 | Xenium | 2025 | NatMethods | Salas | `09_生信分析/Xenium.00005.2025.NatMethods.Salas/` |
@@ -20,6 +21,8 @@
 | 07 | Xenium | 2026 | eLife | Hallinan | `09_生信分析/Xenium.00007.2026.eLife.Hallinan/` |
 | 08 | MERSCOPE | 2015 | Science | Chen | `09_生信分析/MERSCOPE.00001.2015.Science.Chen/` |
 | 09 | MERSCOPE | 2018 | Science | Moffitt | `09_生信分析/MERSCOPE.00002.2018.Science.Moffitt/` |
+| 10 | MERSCOPE | 2023 | Nature | Kumar | `09_生信分析/MERSCOPE.00003.2023.Nature.Kumar/` |
+| 11 | MERSCOPE | 2023 | Nature | Yao | `09_生信分析/MERSCOPE.00004.2023.Nature.Yao/` |
 
 ---
 
