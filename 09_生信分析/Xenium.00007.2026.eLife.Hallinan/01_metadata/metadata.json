@@ -1,0 +1,47 @@
+{
+  "file": {
+    "name": "02.2026.eLife.Xenium_off_target_probe_binding.pdf",
+    "path": "../08_平台深度解析/reference/02.2026.eLife.Xenium_off_target_probe_binding.pdf",
+    "size_bytes": 10430588,
+    "sha256": "4218f03cfd82f43c68b8c2f6cb8078dca6e19bc4c0b3521c27de1d128cc305b1"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creation_date": "D:20260501155008+01'00'",
+    "mod_date": "D:20260501155023+01'00'",
+    "producer": "Adobe PDF Library 15.0",
+    "pages": 33,
+    "extracted_doi": "10.7554/eLife.107070",
+    "extracted_doi_source": "manual (DOI from article landing page; PDF text layer lacks DOI string in first 3 pages)"
+  },
+  "code_availability_hint": null,
+  "data_availability_hint": "Data availability",
+  "crossref": {
+    "title": "Evidence of off-target probe binding affecting 10x Genomics Xenium gene panels compromise accuracy of spatial transcriptomic profiling",
+    "journal": "eLife",
+    "authors": [
+      "Hallinan, Caleb",
+      "Ji, Hyun Joo",
+      "Tsou, Edmund",
+      "Salzberg, Steven L",
+      "Fan, Jean"
+    ],
+    "published": [
+      2026,
+      5,
+      1
+    ],
+    "publisher": "eLife Sciences Publications, Ltd",
+    "type": "journal-article",
+    "is_referenced_by_count": 3,
+    "license": [
+      "http://creativecommons.org/licenses/by/4.0/",
+      "http://creativecommons.org/licenses/by/4.0/",
+      "http://creativecommons.org/licenses/by/4.0/"
+    ]
+  }
+}

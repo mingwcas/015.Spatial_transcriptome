@@ -1,0 +1,45 @@
+{
+  "file": {
+    "name": "03.2015.Science.MERSCOPE_highly_multiplexed_RNA_profiling.pdf",
+    "path": "../08_平台深度解析/reference/03.2015.Science.MERSCOPE_highly_multiplexed_RNA_profiling.pdf",
+    "size_bytes": 3672087,
+    "sha256": "4a669b2b4179b10b957b278b213abf5ddd0eef27f486e2f15c304456838efac5"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "Chris Filiatreau",
+    "subject": "",
+    "keywords": "",
+    "creation_date": "D:20150409111648-07'00'",
+    "mod_date": "D:20150409111648-07'00'",
+    "producer": "Adobe PDF Library 11.0",
+    "pages": 21,
+    "extracted_doi": "10.1126/science.aaa6090"
+  },
+  "code_availability_hint": null,
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Spatially resolved, highly multiplexed RNA profiling in single cells",
+    "journal": "Science",
+    "authors": [
+      "Chen, Kok Hao",
+      "Boettiger, Alistair N.",
+      "Moffitt, Jeffrey R.",
+      "Wang, Siyuan",
+      "Zhuang, Xiaowei"
+    ],
+    "published": [
+      2015,
+      4,
+      24
+    ],
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "type": "journal-article",
+    "is_referenced_by_count": 2980,
+    "license": [
+      "http://www.sciencemag.org/about/science-licenses-journal-article-reuse"
+    ],
+    "abstract": "Multiplexed RNA imaging in single cells\n                  \n                    The basis of cellular function is where and when proteins are expressed and in what quantities. Single-molecule fluorescence in situ hybridization (smFISH) experiments quantify the copy number and location of mRNA molecules; however, the numbers of RNA species that can be simultaneously measured by smFISH has been limited. Using combinatorial labeling with error-robust encoding schemes, Chen\n                    et al.\n                    simultaneously imaged 100 to 1000 RNA species in a single cell. Such large-scale detection allows regulatory interactions to be analyzed at the transcriptome scale.\n                  \n                  \n                    Science\n                    , this issue p.\n                    10.1126/science.aaa6090\n                  "
+  }
+}

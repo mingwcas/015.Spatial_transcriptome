@@ -1,0 +1,49 @@
+{
+  "file": {
+    "name": "03.2018.Science.MERSCOPE_hypothalamic_preoptic_region.pdf",
+    "path": "../08_平台深度解析/reference/03.2018.Science.MERSCOPE_hypothalamic_preoptic_region.pdf",
+    "size_bytes": 4908432,
+    "sha256": "bbf7ef7f8a98ffb831b6dd1ffeebed9dacf24b6d6c3ab91eddd57ba1ed9e783a"
+  },
+  "pdf": {
+    "format": "PDF 1.6",
+    "title": "Science Journals — AAAS",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creation_date": "D:20181113151446+08'00'",
+    "mod_date": "D:20190104224006-08'00'",
+    "producer": "Acrobat Distiller 10.1.16 (Windows)",
+    "pages": 14,
+    "extracted_doi": "10.1126/science.aau5324"
+  },
+  "code_availability_hint": null,
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region",
+    "journal": "Science",
+    "authors": [
+      "Moffitt, Jeffrey R.",
+      "Bambah-Mukku, Dhananjay",
+      "Eichhorn, Stephen W.",
+      "Vaughn, Eric",
+      "Shekhar, Karthik",
+      "Perez, Julio D.",
+      "Rubinstein, Nimrod D.",
+      "Hao, Junjie",
+      "Regev, Aviv",
+      "Dulac, Catherine",
+      "Zhuang, Xiaowei"
+    ],
+    "published": [
+      2018,
+      11,
+      16
+    ],
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "type": "journal-article",
+    "is_referenced_by_count": 1390,
+    "license": null,
+    "abstract": "Mapping the brain, one neuron at a time\n                  \n                    Spatial transcriptomics can link molecularly described cell types to their anatomical positions and functional roles. Moffitt\n                    et al.\n                    used a combination of single-cell RNA-sequencing and MERFISH (multiplexed error-robust fluorescence in situ hybridization) to map the identity and location of specific cell types within the mouse preoptic hypothalamus and surrounding areas of the brain (see the Perspective by Tasic and Nicovich). They related these cell types to specific behaviors via gene activity. The approach provides an unbiased description of cell types of the preoptic area, which are important for sleep, thermoregulation, thirst, and social behavior.\n                  \n                  \n                    Science\n                    , this issue p.\n                    eaau5324\n                    ; see also p.\n                    749\n                  "
+  }
+}
