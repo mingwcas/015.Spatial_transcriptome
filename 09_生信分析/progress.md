@@ -2,9 +2,9 @@
 
 > 自动任务状态文件，每篇论文处理后更新本文件
 
-> 更新于: 2026-09-18 03:30:00
+> 更新于: 2026-09-18 04:15:00
 
-> 总论文数: 33 | ✅ 合规完成: 28 | 🔧 需重做: 0 | ⏳ 待处理: 5
+> 总论文数: 33 | ✅ 合规完成: 31 | 🔧 需重做: 0 | ⏳ 待处理: 2
 
 ---
 
@@ -39,6 +39,9 @@
 | 26 | FISSEQ | 2014 | Science | Lee | `09_生信分析/FISSEQ.00026.2014.Science.Lee/` |
 | 27 | FISSEQ | 2015 | NatProtoc | Lee | `09_生信分析/FISSEQ.00027.2015.NatProtoc.Lee/` |
 | 28 | FISSEQ | 2020 | Cell | Chen | `09_生信分析/FISSEQ.00028.2020.Cell.Chen/` |
+| 29 | STARmap | 2018 | Science | Wang | `09_生信分析/STARmap.00029.2018.Science.Wang/` |
+| 30 | STARmap | 2023 | Science | Zeng | `09_生信分析/STARmap.00030.2023.Science.Zeng/` |
+| 31 | STARmap | 2026 | NatProtoc | Ren | `09_生信分析/STARmap.00031.2026.NatProtoc.Ren/` |
 
 ---
 
@@ -52,11 +55,8 @@
 ## 待处理论文（按处理顺序）
 | 顺序 | # | 平台 | 年份 | 期刊 | 第一作者 | PDF 文件 |
 |------|---|------|------|------|------|---------|
-| 1 | 29 | STARmap | 2018 | Science | Wang | `11.2018.Science.STARmap_3D_intact_tissue.pdf` |
-| 2 | 30 | STARmap | 2023 | Science | Zeng | `11.2023.Science.STARmapPLUS_translatomics_molecular_resolution.pdf` |
-| 3 | 31 | STARmap | 2026 | NatProtoc | Ren | `11.2026.NatProtoc.STARmapPLUS_mRNA_life_cycle.pdf` |
-| 4 | 32 | IlluminaSpatial | 2023 | NatCommun | Janesick | `12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf` |
-| 5 | 33 | Spatial-ATAC-Hi-C | 2026 | NatMethods | Wang | `13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf` |
+| 1 | 32 | IlluminaSpatial | 2023 | NatCommun | Janesick | `12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf` |
+| 2 | 33 | Spatial-ATAC-Hi-C | 2026 | NatMethods | Wang | `13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf` |
 
 ---
 
