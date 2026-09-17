@@ -1,0 +1,50 @@
+{
+  "file": {
+    "name": "07.2021.NatBiotechnol.Slide-seqV2_near_cellular_resolution.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/07.2021.NatBiotechnol.Slide-seqV2_near_cellular_resolution.pdf",
+    "size_bytes": 4617843,
+    "sha256": "8a86f87106c5eaa8ad05ab9e6cc29ade023587314da57c42bee4d5a624934ab9"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2",
+    "author": "Robert R. Stickels",
+    "subject": "Nature Biotechnology, doi:10.1038/s41587-020-0739-1",
+    "keywords": "",
+    "creation_date": "D:20201118180401+05'30'",
+    "mod_date": "D:20201118180510+05'30'",
+    "producer": "",
+    "pages": 13,
+    "extracted_doi": "10.1038/s41587-020-0739-1"
+  },
+  "code_availability_hint": "code availability are available at https://doi.org/10.1038/",
+  "data_availability_hint": "Data availability",
+  "crossref": {
+    "title": "Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2",
+    "journal": "Nature Biotechnology",
+    "authors": [
+      "Stickels, Robert R.",
+      "Murray, Evan",
+      "Kumar, Pawan",
+      "Li, Jilong",
+      "Marshall, Jamie L.",
+      "Di Bella, Daniela J.",
+      "Arlotta, Paola",
+      "Macosko, Evan Z.",
+      "Chen, Fei"
+    ],
+    "published": [
+      2020,
+      12,
+      7
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 1327,
+    "license": [
+      "http://www.springer.com/tdm",
+      "http://www.springer.com/tdm"
+    ],
+    "abstract": null
+  }
+}
