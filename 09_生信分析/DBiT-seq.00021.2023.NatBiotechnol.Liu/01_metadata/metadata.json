@@ -1,0 +1,58 @@
+{
+  "file": {
+    "name": "08.2023.NatBiotechnol.DBiTseq_spatial_CITEseq.pdf",
+    "path": "tmp_平台代表论文/pdfs/08.2023.NatBiotechnol.DBiTseq_spatial_CITEseq.pdf",
+    "size_bytes": 15240926,
+    "sha256": "adf653ebc953731346df4e8d4bc1d83697dce748295f975c17e681a57cd6f556"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "High-plex protein and whole transcriptome co-mapping at cellular resolution with spatial CITE-seq",
+    "author": "Yang Liu",
+    "subject": "Nature Biotechnology, doi:10.1038/s41587-023-01676-0",
+    "keywords": "",
+    "creation_date": "D:20231010120852+05'30'",
+    "mod_date": "D:20231010121001+05'30'",
+    "producer": "",
+    "pages": 21,
+    "extracted_doi": "10.1038/s41587-023-01676-0"
+  },
+  "code_availability_hint": "Code availability",
+  "data_availability_hint": "Data availability",
+  "crossref": {
+    "title": "High-plex protein and whole transcriptome co-mapping at cellular resolution with spatial CITE-seq",
+    "journal": "Nature Biotechnology",
+    "authors": [
+      "Liu, Yang",
+      "DiStasio, Marcello",
+      "Su, Graham",
+      "Asashima, Hiromitsu",
+      "Enninful, Archibald",
+      "Qin, Xiaoyu",
+      "Deng, Yanxiang",
+      "Nam, Jungmin",
+      "Gao, Fu",
+      "Bordignon, Pino",
+      "Cassano, Marco",
+      "Tomayko, Mary",
+      "Xu, Mina",
+      "Halene, Stephanie",
+      "Craft, Joseph E.",
+      "Hafler, David",
+      "Fan, Rong"
+    ],
+    "published": [
+      2023,
+      2,
+      23
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 404,
+    "license": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "abstract": "Abstract\n                  In this study, we extended co-indexing of transcriptomes and epitopes (CITE) to the spatial dimension and demonstrated high-plex protein and whole transcriptome co-mapping. We profiled 189 proteins and whole transcriptome in multiple mouse tissue types with spatial CITE sequencing and then further applied the method to measure 273 proteins and transcriptome in human tissues, revealing spatially distinct germinal center reactions in tonsil and early immune activation in skin at the Coronavirus Disease 2019 mRNA vaccine injection site."
+  }
+}

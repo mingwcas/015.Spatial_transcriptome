@@ -1,0 +1,68 @@
+{
+  "title": "Spatially exploring RNA biology in archival formalin-fixed paraffin-embedded tissues",
+  "authors": [
+    "Zhiliang Bai",
+    "Dingyao Zhang",
+    "Yan Gao",
+    "Jun Lu",
+    "Mina L. Xu",
+    "Rong Fan"
+  ],
+  "corresponding_authors": [
+    "zhiliang.bai@yale.edu",
+    "mingyao@pennmedicine.upenn.edu",
+    "xingyi@chop.edu",
+    "jun.lu@yale.edu",
+    "mina.xu@yale.edu",
+    "rong.fan@yale.edu"
+  ],
+  "journal": "Cell",
+  "volume": "187",
+  "pages": "1-20",
+  "publication_date": "2024-11-14",
+  "doi": "10.1016/j.cell.2024.09.001",
+  "received": "2024-02-02",
+  "revised": "2024-07-29",
+  "accepted": "2024-09-03",
+  "published": "2024-09-30",
+  "platform": "DBiT-seq",
+  "technology": "Patho-DBiT",
+  "tissue_type": "FFPE (formalin-fixed paraffin-embedded)",
+  "applications": [
+    "Spatial transcriptomics",
+    "RNA biology",
+    "Clinical pathology",
+    "Lymphoma research"
+  ],
+  "highlights": [
+    "Patho-DBiT enables spatial whole transcriptome sequencing in clinical FFPE tissues",
+    "Permits spatial co-profiling of gene expression, splicing, and non-coding RNAs",
+    "Genome-wide detection of spatial SNV distribution distinguishes malignant subclones",
+    "Dissects spatiotemporal dynamics of lymphomagenesis at the single-cell level"
+  ],
+  "key_findings": [
+    "Spatial profiling of multiple RNA species (mRNA, microRNA, tRNA, splicing isoforms) in FFPE tissues",
+    "High sensitivity and coverage for detecting RNA biology in archival clinical samples",
+    "Genome-wide mapping of single-nucleotide RNA variants to distinguish subclones",
+    "Dissection of spatiotemporal tumorigenesis at cellular level"
+  ],
+  "experimental_models": [
+    "Mouse embryo (E13)",
+    "Mouse brain",
+    "Human AITL (angioimmunoblastic T-cell lymphoma) FFPE tissue",
+    "Human MALT (mucosa-associated lymphoid tissue) lymphoma FFPE tissue",
+    "miR-142 knockout cells"
+  ],
+  "methods": [
+    "In situ polyadenylation",
+    "Microfluidic spatial barcoding",
+    "FFPE tissue processing",
+    "RNA sequencing",
+    "CODEX spatial phenotyping",
+    "H&E staining",
+    "Immunohistochemistry",
+    "In situ hybridization",
+    "Immunofluorescence",
+    "Whole genome sequencing"
+  ]
+}

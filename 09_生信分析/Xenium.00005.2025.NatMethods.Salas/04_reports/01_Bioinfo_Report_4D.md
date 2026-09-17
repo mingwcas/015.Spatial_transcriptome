@@ -1,13 +1,12 @@
 # 四维度生信分析报告 — Xenium 数据Utility优化
 
-> 论文信息
-> - **论文标题**: Optimizing Xenium In Situ data utility by quality assessment and best-practice analysis workflows
-> - **DOI**: 10.1038/s41592-025-02617-2
-> - **平台**: Xenium (10X Genomics)
-> - **完成日期**: 2025-03-13
-> - **第一作者**: Marco Salas
-> - **通讯作者**: Mats Nilsson
-> - **期刊**: Nature Methods
+> **论文**: Optimizing Xenium data utility for spatial transcriptomics  
+> **DOI**: 10.1038/s41592-025-02617-2  
+> **期刊**: Nature Methods, 2025  
+> **作者**: Salas, S.M. et al.  
+> **通讯作者**: Mats Nilsson (Stockholm University)  
+> **平台**: Xenium (10x Genomics)  
+> **完成日期**: 2025-01-15
 
 ---
 
@@ -39,8 +38,10 @@
 ## 维度二：结果图表
 
 | 图 | 内容摘要 | 主要图形类型 |
-|----|----------|--------------|
-| ED Fig. 4 | Xenium与SRT平台比较：检测效率、转录本分配、NCP | 热图、箱线图、散点图 |
+|----|----------|-------------|
+| Fig. 3 | 细胞分割策略比较 | 热图、箱线图、散点图 |
+| Fig. 4 | 预处理流程优化 | 热图、敏感性分析图 |
+| ED Fig. 4 | Xenium与SRT平台比较：检测效率、转录本分配、NCP | 空间图、箱线图、密度图 |
 | ED Fig. 5 | 分割策略基准测试：Cellpose/Mesmer/Baysor/Watershed/Xenium | 热图、散点图、ROI图像 |
 | ED Fig. 6 | 预处理流程优化：25个数据集、315种配置评估 | 热图、流程图 |
 | ED Fig. 7 | SVF识别算法比较：运行时间、性能排名 | 线图、柱状图、空间地图 |
@@ -72,15 +73,17 @@
 
 | 算法/模型 | 类型 | 用途 |
 |-----------|------|------|
-| Cellpose (CPn/CPc) | 深度学习分割 | 细胞/细胞核分割 |
+| Cellpose (CPn/CPc) | 深度学习分割 (U-Net) | 细胞/细胞核分割 |
 | Mesmer | 深度学习分割 | 组织细胞分割 |
 | Baysor | 贝叶斯分割 | 转录本空间感知分割 |
 | Leiden/Louvain | 图聚类 | 细胞类型聚类 |
 | SPACEL | 层次聚类 | SVF识别 |
-| SpaGCN | 图卷积网络 | 空间域检测 |
-| STAGATE | 图注意力网络 | 空间转录组分析 |
+| SpaGCN | 图卷积网络 (GNN) | 空间域检测 |
+| STAGATE | 图注意力网络 (GAT) | 空间转录组分析 |
 | deepST | 深度学习 | 空间转录组分析 |
-| SCTransform | 正则化负二项 | 归一化 |
+| SCTransform | 正则化负二项回归 | 归一化 |
+| SpatialDE | 高斯过程 | 空间差异表达 |
+| Moran's I | 空间自相关统计 | 空间模式检测 |
 
 ---
 

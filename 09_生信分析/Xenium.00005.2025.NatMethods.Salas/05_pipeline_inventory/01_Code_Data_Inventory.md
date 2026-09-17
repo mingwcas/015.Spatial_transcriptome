@@ -17,7 +17,6 @@ biopython==1.81
 click==8.1.5
 click-log==0.4.0
 click-plugins==1.1.1
-click-plugins==1.1.1
 cloudpickle==2.1.0
 contextily==1.3.0
 cython==3.0.2
@@ -102,7 +101,7 @@ zarr==2.12.0
 | Xenium数据预处理 | ✅ 可完全复现 | GitHub代码开源，Scanpy处理流程 |
 | 分割算法比较 | ✅ 可完全复现 | Cellpose/Baysor/Watershed均开源 |
 | 预处理流程优化 | ✅ 可完全复现 | 参数搜索代码可获取 |
-| SVF识别算法 | ⚠️ 部分受限 | 部分算法(如Seura)计算成本高 |
+| SVF识别算法 | ⚠️ 部分受限 | 部分算法(如Seurat)计算成本高 |
 | SRT平台比较 | ⚠️ 部分受限 | 需访问各平台数据门户 |
 | 新鲜组织实验 | ❌ 无法直接复现 | 需原始Xenium仪器和样本 |
 
