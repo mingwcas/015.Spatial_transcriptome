@@ -29,6 +29,12 @@
 | 15 | Stereo-seq | 2022 | Science | Wei | `09_生信分析/Stereo-seq.00015.2022.Science.Wei/` |
 | 16 | Stereo-seq | 2025 | Cell | Zhao | `09_生信分析/Stereo-seq.00016.2025.Cell.Zhao/` |
 | 17 | Slide-seq | 2021 | NatBiotechnol | Stickels | `09_生信分析/Slide-seq.00017.2021.NatBiotechnol.Stickels/` |
+| 12 | CosMx | 2026 | CellRepMed | Zhang | `09_生信分析/CosMx.00012.2026.CellRepMed.Zhang/` |
+| 13 | GeoMx | 2022 | FrontOncol | Hernandez | `09_生信分析/GeoMx.00013.2022.FrontOncol.Hernandez/` |
+| 14 | GeoMx | 2026 | ImmunoAdv | Park | `09_生信分析/GeoMx.00014.2026.ImmunoAdv.Park/` |
+| 15 | Stereo-seq | 2022 | Science | Wei | `09_生信分析/Stereo-seq.00015.2022.Science.Wei/` |
+| 16 | Stereo-seq | 2025 | Cell | Zhao | `09_生信分析/Stereo-seq.00016.2025.Cell.Zhao/` |
+| 17 | Slide-seq | 2021 | NatBiotechnol | Stickels | `09_生信分析/Slide-seq.00017.2021.NatBiotechnol.Stickels/` |
 
 ---
 
