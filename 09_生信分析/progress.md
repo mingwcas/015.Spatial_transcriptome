@@ -4,18 +4,18 @@
 
 > 更新于: 2026-09-18 03:25:00
 
-> 总论文数: 33 | ✅ 合规完成: 25 | 🔧 需重做: 0 | ⏳ 待处理: 7
+> 总论文数: 33 | ✅ 合规完成: 25 | 🔧 需重做: 0 | ⏳ 待处理: 8
 
 ---
 
 ## 已完成论文（符合 AGENT.md 规范）
-
 | # | 平台 | 年份 | 期刊 | 第一作者 | 目录 |
 |---|------|------|------|------|------|
 | 01 | Visium | 2016 | Science | Ståhl | `09_生信分析/Visium.00001.2016.Science.Stahl/` |
 | 02 | Visium | 2018 | NatProtoc | Salmén | `09_生信分析/Visium.00002.2018.NatProtoc.Salmén/` |
 | 03 | Visium HD | 2025 | NatGenet | Oliveira | `09_生信分析/Visium.00003.2025.NatGenet.Oliveira/` |
 | 04 | Xenium | 2025 | NatCommun | Ren | `09_生信分析/Xenium.00004.2025.NatCommun.Ren/` |
+| 05 | Xenium | 2025 | NatMethods | Salas | `09_生信分析/Xenium.00005.2025.NatMethods.Salas/` |
 | 06 | Xenium | 2026 | NatMethods | Bilous | `09_生信分析/Xenium.00006.2026.NatMethods.Bilous/` |
 | 07 | Xenium | 2026 | eLife | Hallinan | `09_生信分析/Xenium.00007.2026.eLife.Hallinan/` |
 | 08 | MERSCOPE | 2015 | Science | Chen | `09_生信分析/MERSCOPE.00001.2015.Science.Chen/` |
@@ -31,7 +31,6 @@
 | 18 | Slide-seq | 2024 | NatMethods | You | `09_生信分析/Slide-seq.00018.2024.NatMethods.You/` |
 | 19 | Slide-seq | 2025 | NatCommun | Feng | `09_生信分析/Slide-seq.00019.2025.NatCommun.Feng/` |
 | 20 | DBiT-seq | 2020 | Cell | Liu | `09_生信分析/DBiT-seq.00020.2020.Cell.Liu/` |
-| 05 | Xenium | 2025 | NatMethods | Salas | `09_生信分析/Xenium.00005.2025.NatMethods.Salas/` |
 | 21 | DBiT-seq | 2023 | NatBiotechnol | Liu | `09_生信分析/DBiT-seq.00021.2023.NatBiotechnol.Liu/` |
 | 22 | DBiT-seq | 2024 | Cell | Bai | `09_生信分析/DBiT-seq.00022.2024.Cell.Bai/` |
 | 23 | Open-ST | 2024 | Cell | Schott | `09_生信分析/Open-ST.00023.2024.Cell.Schott/` |
@@ -48,18 +47,16 @@
 ---
 
 ## 待处理论文（按处理顺序）
-
 | 顺序 | # | 平台 | 年份 | 期刊 | 第一作者 | PDF 文件 |
 |------|---|------|------|------|------|---------|
 | 1 | 26 | FISSEQ | 2014 | Science | Lee | `10.2014.Science.FISSEQ_subcellular_RNA_seq.pdf` |
-| 4 | 26 | FISSEQ | 2014 | Science | Lee | `10.2014.Science.FISSEQ_subcellular_RNA_seq.pdf` |
-| 5 | 27 | FISSEQ | 2015 | NatProtoc | Lee | `10.2015.NatProtoc.FISSEQ_RNA_in_situ_sequencing.pdf` |
-| 6 | 28 | FISSEQ | 2020 | Cell | Chen | `10.2020.Cell.FISSEQ_Alzheimer_disease.pdf` |
-| 7 | 29 | STARmap | 2018 | Science | Wang | `11.2018.Science.STARmap_3D_intact_tissue.pdf` |
-| 8 | 30 | STARmap | 2023 | Science | Zeng | `11.2023.Science.STARmapPLUS_translatomics_molecular_resolution.pdf` |
-| 9 | 31 | STARmap | 2026 | NatProtoc | Ren | `11.2026.NatProtoc.STARmapPLUS_mRNA_life_cycle.pdf` |
-| 10 | 32 | IlluminaSpatial | 2023 | NatCommun | Janesick | `12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf` |
-| 11 | 33 | Spatial-ATAC-Hi-C | 2026 | NatMethods | Wang | `13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf` |
+| 2 | 27 | FISSEQ | 2015 | NatProtoc | Lee | `10.2015.NatProtoc.FISSEQ_RNA_in_situ_sequencing.pdf` |
+| 3 | 28 | FISSEQ | 2020 | Cell | Chen | `10.2020.Cell.FISSEQ_Alzheimer_disease.pdf` |
+| 4 | 29 | STARmap | 2018 | Science | Wang | `11.2018.Science.STARmap_3D_intact_tissue.pdf` |
+| 5 | 30 | STARmap | 2023 | Science | Zeng | `11.2023.Science.STARmapPLUS_translatomics_molecular_resolution.pdf` |
+| 6 | 31 | STARmap | 2026 | NatProtoc | Ren | `11.2026.NatProtoc.STARmapPLUS_mRNA_life_cycle.pdf` |
+| 7 | 32 | IlluminaSpatial | 2023 | NatCommun | Janesick | `12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf` |
+| 8 | 33 | Spatial-ATAC-Hi-C | 2026 | NatMethods | Wang | `13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf` |
 
 ---
 
