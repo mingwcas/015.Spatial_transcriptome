@@ -79,12 +79,25 @@ else:
 PY
 printf -- "- id: settings\n  config:\n    path: %s\n" "$BATCH_SETTINGS" > "$BATCH_PATCH"
 
+# 单次运行上限（秒）。headless 完成工作后偶尔不退出，用看门狗兜底。
+MAX_RUN_SECONDS=${MAX_RUN_SECONDS:-14400}   # 4 小时
+
+run_headless() {
+    dsh --profile headless --patch "$BATCH_PATCH" "$TASK" 2>&1 | tee -a "$LOG_FILE" &
+    local pid=$!
+    ( sleep "$MAX_RUN_SECONDS"; kill -9 $pid 2>/dev/null ) &
+    local watchdog=$!
+    wait $pid; local rc=$?
+    kill $watchdog 2>/dev/null; wait $watchdog 2>/dev/null
+    return $rc
+}
+
 # 重试逻辑：API 超载时最多等 5 分钟再试
 MAX_RETRIES=3
 RETRY_DELAY=60
 for attempt in $(seq 1 $MAX_RETRIES); do
-    dsh --profile headless --patch "$BATCH_PATCH" "$TASK" 2>&1 | tee -a "$LOG_FILE"
-    EXIT_CODE=${PIPESTATUS[0]}
+    run_headless
+    EXIT_CODE=$?
     if [ $EXIT_CODE -eq 0 ]; then
         log "✅ 执行成功"
         break
@@ -99,6 +112,10 @@ for attempt in $(seq 1 $MAX_RETRIES); do
         break
     fi
 done
+
+# 验收：不合格的论文回退到待处理队列，避免骨架产物被当成完成
+log "验收本轮产物..."
+python3 tools/verify_papers.py 2>&1 | tee -a "$LOG_FILE" | tail -3
 
 rm -f "$pending_file"
 log "======== 执行完成 $(date '+%Y-%m-%d %H:%M:%S') ========"
