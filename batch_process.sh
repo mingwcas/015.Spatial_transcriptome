@@ -56,15 +56,26 @@ TASK="你是一个学术论文生信分析助手。请从 progress.md 读取待�
 
 log "执行 DeepSeek headless..."
 
-# 执行
-dsh --profile headless "$TASK" 2>&1 | tee -a "$LOG_FILE"
-EXIT_CODE=${PIPESTATUS[0]}
-
-if [ $EXIT_CODE -eq 0 ]; then
-    log "✅ 执行成功"
-else
-    log "⚠️ 执行退出码: $EXIT_CODE"
-fi
+# 重试逻辑：API 超载时最多等 5 分钟再试
+MAX_RETRIES=3
+RETRY_DELAY=60
+for attempt in $(seq 1 $MAX_RETRIES); do
+    dsh --profile headless "$TASK" 2>&1 | tee -a "$LOG_FILE"
+    EXIT_CODE=${PIPESTATUS[0]}
+    if [ $EXIT_CODE -eq 0 ]; then
+        log "✅ 执行成功"
+        break
+    fi
+    # 检查是否是 API 超载（退出码 1 且日志含 overload）
+    if grep -q "overload\|PI_AI_ERROR" "$LOG_FILE" 2>/dev/null && [ $attempt -lt $MAX_RETRIES ]; then
+        log "⚠️ API 超载，${RETRY_DELAY}s 后重试 ($attempt/$MAX_RETRIES)..."
+        sleep $RETRY_DELAY
+        RETRY_DELAY=$((RETRY_DELAY * 2))
+    else
+        log "⚠️ 执行退出码: $EXIT_CODE"
+        break
+    fi
+done
 
 rm -f "$pending_file"
 log "======== 执行完成 $(date '+%Y-%m-%d %H:%M:%S') ========"
