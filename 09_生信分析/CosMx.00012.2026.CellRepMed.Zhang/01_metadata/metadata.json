@@ -1,0 +1,52 @@
+{
+  "file": {
+    "name": "04.2026.CellRepMed.CosMx_SCLC_TME_heterogeneity.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/04.2026.CellRepMed.CosMx_SCLC_TME_heterogeneity.pdf",
+    "size_bytes": 12586539,
+    "sha256": "418253cdc1a5606c25649374a825b63d5ea3c503fc3463df06d24888d8f9fe89"
+  },
+  "pdf": {
+    "format": "PDF 1.7",
+    "title": "Single-cell spatial transcriptomics reveals tumor microenvironment heterogeneity in primary and lymph node-metastatic small cell lung cancer",
+    "author": "Zicheng Zhang",
+    "subject": "Cell Reports Medicine, Corrected proof, 102713. doi:10.1016/j.xcrm.2026.102713",
+    "keywords": "",
+    "creation_date": "D:20260325141328+05'30'",
+    "mod_date": "D:20260325142843+05'30'",
+    "producer": "PDFlib+PDI 10.0.2p2 (C++/Win64)",
+    "pages": 18,
+    "extracted_doi": "10.1016/j.xcrm.2026.102713"
+  },
+  "code_availability_hint": "code availability",
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Single-cell spatial transcriptomics reveals tumor microenvironment heterogeneity in primary and lymph node-metastatic small cell lung cancer",
+    "journal": "Cell Reports Medicine",
+    "authors": [
+      "Zhang, Zicheng",
+      "Wu, Dongfang",
+      "Chen, Ruanqi",
+      "Zhai, Modi",
+      "Yang, Fan",
+      "Wang, Jiaqian",
+      "Guo, Lei",
+      "Liu, Li",
+      "Ying, Jianming",
+      "Yang, Lin",
+      "Zhou, Meng"
+    ],
+    "published": [
+      2026,
+      4
+    ],
+    "publisher": "Elsevier BV",
+    "type": "journal-article",
+    "is_referenced_by_count": 5,
+    "license": [
+      "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    ],
+    "abstract": null
+  }
+}

@@ -2,9 +2,9 @@
 
 > 自动任务状态文件，每篇论文处理后更新本文件
 
-> 更新于: 2026-09-16 13:15:00
+> 更新于: 2026-09-18 00:58:00
 
-> 总论文数: 33 | ✅ 合规完成: 11 | 🔧 需重构: 0 | ⏳ 待处理: 22
+> 总论文数: 33 | ✅ 合规完成: 14 | 🔧 需重构: 0 | ⏳ 待处理: 19
 
 ---
 
@@ -23,6 +23,9 @@
 | 09 | MERSCOPE | 2018 | Science | Moffitt | `09_生信分析/MERSCOPE.00002.2018.Science.Moffitt/` |
 | 10 | MERSCOPE | 2023 | Nature | Kumar | `09_生信分析/MERSCOPE.00003.2023.Nature.Kumar/` |
 | 11 | MERSCOPE | 2023 | Nature | Yao | `09_生信分析/MERSCOPE.00004.2023.Nature.Yao/` |
+| 12 | CosMx | 2026 | CellRepMed | Zhang | `09_生信分析/CosMx.00012.2026.CellRepMed.Zhang/` |
+| 13 | GeoMx | 2022 | FrontOncol | Hernandez | `09_生信分析/GeoMx.00013.2022.FrontOncol.Hernandez/` |
+| 14 | GeoMx | 2026 | ImmunoAdv | Park | `09_生信分析/GeoMx.00014.2026.ImmunoAdv.Park/` |
 
 ---
 
@@ -37,28 +40,25 @@
 
 | 顺序 | # | 平台 | 年份 | 期刊 | 第一作者 | PDF 文件 |
 |------|---|------|------|------|------|---------|
-| 1 | 12 | CosMx | 2026 | CellRepMed | Zhang | `04.2026.CellRepMed.CosMx_SCLC_TME_heterogeneity.pdf` |
-| 5 | 13 | GeoMx | 2022 | FrontOncol | Hernandez | `05.2022.FrontOncol.GeoMx_immunoprofiling_opportunities.pdf` |
-| 6 | 14 | GeoMx | 2026 | ImmunoAdv | Park | `05.2026.ImmunoAdv.GeoMx_dMMR_CRC_immunotherapy.pdf` |
-| 7 | 15 | Stereo-seq | 2022 | Science | Wei | `06.2022.Science.Stereo-seq_axolotl_brain_regeneration.pdf` |
-| 8 | 16 | Stereo-seq | 2025 | Cell | Zhao | `06.2025.Cell.Stereo-seqV2_total_RNA_FFPE.pdf` |
-| 9 | 17 | Slide-seq | 2021 | NatBiotechnol | Stickels | `07.2021.NatBiotechnol.Slide-seqV2_near_cellular_resolution.pdf` |
-| 10 | 18 | Slide-seq | 2024 | NatMethods | You | `07.2024.NatMethods.Slide-seq_comparison_sequencing_based_methods.pdf` |
-| 11 | 19 | Slide-seq | 2025 | NatCommun | Feng | `07.2025.NatCommun.Slide-seq_molecular_cartography_DS_brain.pdf` |
-| 12 | 20 | DBiT-seq | 2020 | Cell | Liu | `08.2020.Cell.DBiTseq_deterministic_barcoding.pdf` |
-| 13 | 21 | DBiT-seq | 2023 | NatBiotechnol | Liu | `08.2023.NatBiotechnol.DBiTseq_spatial_CITEseq.pdf` |
-| 14 | 22 | DBiT-seq | 2024 | Cell | Bai | `08.2024.Cell.DBiTseq_RNA_biology_FFPE.pdf` |
-| 15 | 23 | Open-ST | 2024 | Cell | Schott | `09.2024.Cell.OpenST_high_res_3D.pdf` |
-| 16 | 24 | Open-ST | 2025 | CellSyst | Pentimalli | `09.2025.CellSyst.OpenST_ECM_3D_TME.pdf` |
-| 17 | 25 | Open-ST | 2025 | STARProtoc | Schott | `09.2025.STARProtoc.OpenST_3D_protocol.pdf` |
-| 18 | 26 | FISSEQ | 2014 | Science | Lee | `10.2014.Science.FISSEQ_subcellular_RNA_seq.pdf` |
-| 19 | 27 | FISSEQ | 2015 | NatProtoc | Lee | `10.2015.NatProtoc.FISSEQ_RNA_in_situ_sequencing.pdf` |
-| 20 | 28 | FISSEQ | 2020 | Cell | Chen | `10.2020.Cell.FISSEQ_Alzheimer_disease.pdf` |
-| 21 | 29 | STARmap | 2018 | Science | Wang | `11.2018.Science.STARmap_3D_intact_tissue.pdf` |
-| 22 | 30 | STARmap | 2023 | Science | Zeng | `11.2023.Science.STARmapPLUS_translatomics_molecular_resolution.pdf` |
-| 23 | 31 | STARmap | 2026 | NatProtoc | Ren | `11.2026.NatProtoc.STARmapPLUS_mRNA_life_cycle.pdf` |
-| 24 | 32 | IlluminaSpatial | 2023 | NatCommun | Janesick | `12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf` |
-| 25 | 33 | Spatial-ATAC-Hi-C | 2026 | NatMethods | Wang | `13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf` |
+| 1 | 15 | Stereo-seq | 2022 | Science | Wei | `06.2022.Science.Stereo-seq_axolotl_brain_regeneration.pdf` |
+| 2 | 16 | Stereo-seq | 2025 | Cell | Zhao | `06.2025.Cell.Stereo-seqV2_total_RNA_FFPE.pdf` |
+| 3 | 17 | Slide-seq | 2021 | NatBiotechnol | Stickels | `07.2021.NatBiotechnol.Slide-seqV2_near_cellular_resolution.pdf` |
+| 4 | 18 | Slide-seq | 2024 | NatMethods | You | `07.2024.NatMethods.Slide-seq_comparison_sequencing_based_methods.pdf` |
+| 5 | 19 | Slide-seq | 2025 | NatCommun | Feng | `07.2025.NatCommun.Slide-seq_molecular_cartography_DS_brain.pdf` |
+| 6 | 20 | DBiT-seq | 2020 | Cell | Liu | `08.2020.Cell.DBiTseq_deterministic_barcoding.pdf` |
+| 7 | 21 | DBiT-seq | 2023 | NatBiotechnol | Liu | `08.2023.NatBiotechnol.DBiTseq_spatial_CITEseq.pdf` |
+| 8 | 22 | DBiT-seq | 2024 | Cell | Bai | `08.2024.Cell.DBiTseq_RNA_biology_FFPE.pdf` |
+| 9 | 23 | Open-ST | 2024 | Cell | Schott | `09.2024.Cell.OpenST_high_res_3D.pdf` |
+| 10 | 24 | Open-ST | 2025 | CellSyst | Pentimalli | `09.2025.CellSyst.OpenST_ECM_3D_TME.pdf` |
+| 11 | 25 | Open-ST | 2025 | STARProtoc | Schott | `09.2025.STARProtoc.OpenST_3D_protocol.pdf` |
+| 12 | 26 | FISSEQ | 2014 | Science | Lee | `10.2014.Science.FISSEQ_subcellular_RNA_seq.pdf` |
+| 13 | 27 | FISSEQ | 2015 | NatProtoc | Lee | `10.2015.NatProtoc.FISSEQ_RNA_in_situ_sequencing.pdf` |
+| 14 | 28 | FISSEQ | 2020 | Cell | Chen | `10.2020.Cell.FISSEQ_Alzheimer_disease.pdf` |
+| 15 | 29 | STARmap | 2018 | Science | Wang | `11.2018.Science.STARmap_3D_intact_tissue.pdf` |
+| 16 | 30 | STARmap | 2023 | Science | Zeng | `11.2023.Science.STARmapPLUS_translatomics_molecular_resolution.pdf` |
+| 17 | 31 | STARmap | 2026 | NatProtoc | Ren | `11.2026.NatProtoc.STARmapPLUS_mRNA_life_cycle.pdf` |
+| 18 | 32 | IlluminaSpatial | 2023 | NatCommun | Janesick | `12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf` |
+| 19 | 33 | Spatial-ATAC-Hi-C | 2026 | NatMethods | Wang | `13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf` |
 
 ---
 

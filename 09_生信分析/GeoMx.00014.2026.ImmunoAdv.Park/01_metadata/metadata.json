@@ -1,0 +1,45 @@
+{
+  "file": {
+    "name": "05.2026.ImmunoAdv.GeoMx_dMMR_CRC_immunotherapy.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/05.2026.ImmunoAdv.GeoMx_dMMR_CRC_immunotherapy.pdf",
+    "size_bytes": 5311395,
+    "sha256": "5861732ec68d1041550024e644dde6a1d1d1ec743bcd7f9b8d6a9779f355e78c"
+  },
+  "pdf": {
+    "format": "PDF 1.6",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creation_date": "D:20260212144823+05'30'",
+    "mod_date": "D:20260212144823+05'30'",
+    "producer": "PDFlib+PDI 9.0.7p3 (C++/Win64)",
+    "pages": 14,
+    "extracted_doi": "10.1093/immadv/ltag001"
+  },
+  "code_availability_hint": null,
+  "data_availability_hint": "Data availability",
+  "crossref": {
+    "title": "Comprehensive spatial and immune profiling of metastatic mismatch repair–deficient colorectal cancer reveals response to immunotherapy",
+    "journal": "Immunotherapy Advances",
+    "authors": [
+      "Park, Ilkyu",
+      "Kang, Hari",
+      "Kim, Se-Hee",
+      "Jung, YunJae",
+      "Lee, Won-Suk"
+    ],
+    "published": [
+      2025,
+      12,
+      31
+    ],
+    "publisher": "Oxford University Press (OUP)",
+    "type": "journal-article",
+    "is_referenced_by_count": 0,
+    "license": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "abstract": "Abstract\n                  \n                    Introduction\n                    Mismatch repair-deficient (dMMR) colorectal cancers (CRCs) exhibit variable clinical responses to immune checkpoint inhibitors (ICIs) despite their high immunogenicity.\n                  \n                  \n                    Methods\n                    To investigate the molecular and spatial determinants of this heterogeneity, we analyzed five metastatic sites (colon, liver, peritoneum, left ovary, and right ovary) from a dMMR CRC patient treated with pembrolizumab using bulk and single-cell RNA sequencing combined with multiplex immunohistochemistry.\n                  \n                  \n                    Results\n                    Responsive lesions were characterized by enriched cytotoxic and interferon-γ signatures, greater CD8+ T-cell infiltration, and close spatial proximity between programmed death-ligand 1(PD-L1)+ tumor cells and M1-like macrophages. In contrast, resistant lesions demonstrated reduced effector cell presence and were enriched in immunosuppressive programs, including SPP1+ and CD163+ macrophages, noncanonical WNT5A/B signaling, and TGF-β–mediated matrix remodeling.\n                  \n                  \n                    Conclusion\n                    Collectively, these findings highlight the importance of spatial immune architecture and macrophage polarization in shaping ICI responses in dMMR CRC and underscore the need for spatial profiling to guide immunotherapy strategies in metastatic disease.\n                  "
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "file": {
+    "name": "05.2022.FrontOncol.GeoMx_immunoprofiling_opportunities.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/05.2022.FrontOncol.GeoMx_immunoprofiling_opportunities.pdf",
+    "size_bytes": 5453943,
+    "sha256": "e936f1f35575525168542a5fd2bb70344d2fa658b4535e52843522eb72d7b29a"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "Challenges and Opportunities for Immunoprofiling Using a Spatial High-Plex Technology: The NanoString GeoMx&reg; Digital Spatial Profiler",
+    "author": "Sharia Hernandez",
+    "subject": "Characterization of the tumor microenvironment through immunoprofiling has become an essential resource for the understanding of the complex immune cell interactions and the assessment of biomarkers for prognosis and prediction of immunotherapy response;",
+    "keywords": "digital spatial profiling, immune-oncology, biomarkers, tumor microenvironment, pathology",
+    "creation_date": "D:20220629103435+08'00'",
+    "mod_date": "D:20220629101920+08'00'",
+    "producer": "Acrobat Distiller 7.0 (Windows)",
+    "pages": 17,
+    "extracted_doi": "10.3389/fonc.2022.890410"
+  },
+  "code_availability_hint": null,
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Challenges and Opportunities for Immunoprofiling Using a Spatial High-Plex Technology: The NanoString GeoMx® Digital Spatial Profiler",
+    "journal": "Frontiers in Oncology",
+    "authors": [
+      "Hernandez, Sharia",
+      "Lazcano, Rossana",
+      "Serrano, Alejandra",
+      "Powell, Steven",
+      "Kostousov, Larissa",
+      "Mehta, Jay",
+      "Khan, Khaja",
+      "Lu, Wei",
+      "Solis, Luisa M."
+    ],
+    "published": [
+      2022,
+      6,
+      29
+    ],
+    "publisher": "Frontiers Media SA",
+    "type": "journal-article",
+    "is_referenced_by_count": 130,
+    "license": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "abstract": "\n                    Characterization of the tumor microenvironment through immunoprofiling has become an essential resource for the understanding of the complex immune cell interactions and the assessment of biomarkers for prognosis and prediction of immunotherapy response; however, these studies are often limited by tissue heterogeneity and sample size. The nanoString GeoMx\n                    ®\n                    Digital Spatial Profiler (DSP) is a platform that allows high-plex profiling at the protein and RNA level, providing spatial and temporal assessment of tumors in frozen or formalin-fixed paraffin-embedded limited tissue sample. Recently, high-impact studies have shown the feasibility of using this technology to identify biomarkers in different settings, including predictive biomarkers for immunotherapy in different tumor types. These studies showed that compared to other multiplex and high-plex platforms, the DSP can interrogate a higher number of biomarkers with higher throughput; however, it does not provide single-cell resolution, including co-expression of biomarker or spatial information at the single-cell level. In this review, we will describe the technical overview of the platform, present current evidence of the advantages and limitations of the applications of this technology, and provide important considerations for the experimental design for translational immune-oncology research using this tissue-based high-plex profiling approach.\n                  "
+  }
+}
