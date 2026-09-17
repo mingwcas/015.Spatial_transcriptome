@@ -1,0 +1,63 @@
+{
+  "file": {
+    "name": "09.2025.CellSyst.OpenST_ECM_3D_TME.pdf",
+    "path": "tmp_平台代表论文/pdfs/09.2025.CellSyst.OpenST_ECM_3D_TME.pdf",
+    "size_bytes": 9367381,
+    "sha256": "c29868254f0f93e87ccbf9697bbcfe71c3f588a3dc7aa4b8fd15f3777da17918"
+  },
+  "pdf": {
+    "format": "PDF 1.7",
+    "title": "Combining spatial transcriptomics and ECM imaging in 3D for mapping cellular interactions in the tumor microenvironment",
+    "author": "Tancredi Massimo Pentimalli",
+    "subject": "Cell Systems, Corrected proof. doi:10.1016/j.cels.2025.101261",
+    "keywords": "",
+    "creation_date": "D:20250409040956+05'30'",
+    "mod_date": "D:20250409041111+05'30'",
+    "producer": "",
+    "pages": 24,
+    "extracted_doi": "10.1016/j.cels.2025.101261"
+  },
+  "code_availability_hint": "code availability",
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Combining spatial transcriptomics and ECM imaging in 3D for mapping cellular interactions in the tumor microenvironment",
+    "journal": "Cell Systems",
+    "authors": [
+      "Pentimalli, Tancredi Massimo",
+      "Schallenberg, Simon",
+      "León-Periñán, Daniel",
+      "Legnini, Ivano",
+      "Theurillat, Ilan",
+      "Thomas, Gwendolin",
+      "Boltengagen, Anastasiya",
+      "Fritzsche, Sonja",
+      "Nimo, Jose",
+      "Ruff, Lukas",
+      "Dernbach, Gabriel",
+      "Jurmeister, Philipp",
+      "Murphy, Sarah",
+      "Gregory, Mark T.",
+      "Liang, Yan",
+      "Cordenonsi, Michelangelo",
+      "Piccolo, Stefano",
+      "Coscia, Fabian",
+      "Woehler, Andrew",
+      "Karaiskos, Nikos",
+      "Klauschen, Frederick",
+      "Rajewsky, Nikolaus"
+    ],
+    "published": [
+      2025,
+      5
+    ],
+    "publisher": "Elsevier BV",
+    "type": "journal-article",
+    "is_referenced_by_count": 28,
+    "license": [
+      "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "http://creativecommons.org/licenses/by-nc/4.0/"
+    ],
+    "abstract": null
+  }
+}

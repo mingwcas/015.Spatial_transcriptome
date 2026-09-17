@@ -1,0 +1,48 @@
+{
+  "file": {
+    "name": "09.2025.STARProtoc.OpenST_3D_protocol.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/09.2025.STARProtoc.OpenST_3D_protocol.pdf",
+    "size_bytes": 11066279,
+    "sha256": "212a79f18ed98bd03bd40ee4063f66332bdf4fc20eef434e8dfdcc9de4fee6e7"
+  },
+  "pdf": {
+    "format": "PDF 1.7",
+    "title": "Protocol for high-resolution 3D spatial transcriptomics using Open-ST",
+    "author": "Marie Schott",
+    "subject": "STAR Protocols, 6 (2025) 103521. doi:10.1016/j.xpro.2024.103521",
+    "keywords": "",
+    "creation_date": "D:20241219175409+05'30'",
+    "mod_date": "D:20241219175654+05'30'",
+    "producer": "Acrobat Distiller 8.1.0 (Windows)",
+    "pages": 44,
+    "extracted_doi": "10.1016/j.xpro.2024.103521"
+  },
+  "code_availability_hint": "code availability",
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Protocol for high-resolution 3D spatial transcriptomics using Open-ST",
+    "journal": "STAR Protocols",
+    "authors": [
+      "Schott, Marie",
+      "León-Periñán, Daniel",
+      "Splendiani, Elena",
+      "Ferretti, Elisabetta",
+      "Macino, Giuseppe",
+      "Karaiskos, Nikos",
+      "Rajewsky, Nikolaus"
+    ],
+    "published": [
+      2025,
+      3
+    ],
+    "publisher": "Elsevier BV",
+    "type": "journal-article",
+    "is_referenced_by_count": 10,
+    "license": [
+      "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "http://creativecommons.org/licenses/by/4.0/"
+    ],
+    "abstract": null
+  }
+}
