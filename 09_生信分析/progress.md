@@ -2,9 +2,9 @@
 
 > 自动任务状态文件，每篇论文处理后更新本文件
 
-> 更新于: 2026-09-18 03:15:00
+> 更新于: 2026-09-18 03:25:00
 
-> 总论文数: 33 | ✅ 合规完成: 24 | 🔧 需重做: 0 | ⏳ 待处理: 8
+> 总论文数: 33 | ✅ 合规完成: 25 | 🔧 需重做: 0 | ⏳ 待处理: 7
 
 ---
 
@@ -34,6 +34,7 @@
 | 05 | Xenium | 2025 | NatMethods | Salas | `09_生信分析/Xenium.00005.2025.NatMethods.Salas/` |
 | 21 | DBiT-seq | 2023 | NatBiotechnol | Liu | `09_生信分析/DBiT-seq.00021.2023.NatBiotechnol.Liu/` |
 | 22 | DBiT-seq | 2024 | Cell | Bai | `09_生信分析/DBiT-seq.00022.2024.Cell.Bai/` |
+| 23 | Open-ST | 2024 | Cell | Schott | `09_生信分析/Open-ST.00023.2024.Cell.Schott/` |
 | 24 | Open-ST | 2025 | CellSyst | Pentimalli | `09_生信分析/Open-ST.00024.2025.CellSyst.Pentimalli/` |
 | 25 | Open-ST | 2025 | STARProtoc | Schott | `09_生信分析/Open-ST.00025.2025.STARProtoc.Schott/` |
 
@@ -50,7 +51,7 @@
 
 | 顺序 | # | 平台 | 年份 | 期刊 | 第一作者 | PDF 文件 |
 |------|---|------|------|------|------|---------|
-| 1 | 23 | Open-ST | 2024 | Cell | Schott | `09.2024.Cell.OpenST_high_res_3D.pdf` |
+| 1 | 26 | FISSEQ | 2014 | Science | Lee | `10.2014.Science.FISSEQ_subcellular_RNA_seq.pdf` |
 | 4 | 26 | FISSEQ | 2014 | Science | Lee | `10.2014.Science.FISSEQ_subcellular_RNA_seq.pdf` |
 | 5 | 27 | FISSEQ | 2015 | NatProtoc | Lee | `10.2015.NatProtoc.FISSEQ_RNA_in_situ_sequencing.pdf` |
 | 6 | 28 | FISSEQ | 2020 | Cell | Chen | `10.2020.Cell.FISSEQ_Alzheimer_disease.pdf` |

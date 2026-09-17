@@ -1,0 +1,59 @@
+{
+  "file": {
+    "name": "09.2024.Cell.OpenST_high_res_3D.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/09.2024.Cell.OpenST_high_res_3D.pdf",
+    "size_bytes": 25477433,
+    "sha256": "bdc11053b28b56df8d8dd8e08e786ef178e1de900ba8c655078ea582574c5027"
+  },
+  "pdf": {
+    "format": "PDF 1.7",
+    "title": "Open-ST: High-resolution spatial transcriptomics in 3D",
+    "author": "Marie Schott",
+    "subject": "Cell, Corrected proof. doi:10.1016/j.cell.2024.05.055",
+    "keywords": "",
+    "creation_date": "D:20240621213116+05'30'",
+    "mod_date": "D:20240621213451+05'30'",
+    "producer": "Acrobat Distiller 8.1.0 (Windows)",
+    "pages": 47,
+    "extracted_doi": "10.1016/j.cell.2024.05.055"
+  },
+  "code_availability_hint": "code availability",
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Open-ST: High-resolution spatial transcriptomics in 3D",
+    "journal": "Cell",
+    "authors": [
+      "Schott, Marie",
+      "León-Periñán, Daniel",
+      "Splendiani, Elena",
+      "Strenger, Leon",
+      "Licha, Jan Robin",
+      "Pentimalli, Tancredi Massimo",
+      "Schallenberg, Simon",
+      "Alles, Jonathan",
+      "Samut Tagliaferro, Sarah",
+      "Boltengagen, Anastasiya",
+      "Ehrig, Sebastian",
+      "Abbiati, Stefano",
+      "Dommerich, Steffen",
+      "Pagani, Massimiliano",
+      "Ferretti, Elisabetta",
+      "Macino, Giuseppe",
+      "Karaiskos, Nikos",
+      "Rajewsky, Nikolaus"
+    ],
+    "published": [
+      2024,
+      7
+    ],
+    "publisher": "Elsevier BV",
+    "type": "journal-article",
+    "is_referenced_by_count": 220,
+    "license": [
+      "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "http://creativecommons.org/licenses/by-nc/4.0/"
+    ],
+    "abstract": null
+  }
+}
