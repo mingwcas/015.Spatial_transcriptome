@@ -1,0 +1,57 @@
+{
+  "file": {
+    "name": "12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf",
+    "path": "08_平台深度解析/reference/12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf",
+    "size_bytes": 12843342,
+    "sha256": "5f70e850f717cc716cb431bae181828104bec6553ec67152eae092abbb33cadf"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "High resolution mapping of the tumor microenvironment using integrated single-cell, spatial and in situ analysis",
+    "author": "Amanda Janesick",
+    "subject": "Nature Communications, doi:10.1038/s41467-023-43458-x",
+    "keywords": "",
+    "creation_date": "D:20231211173853+05'30'",
+    "mod_date": "D:20231215105952+01'00'",
+    "producer": "iText® 5.3.5 ©2000-2012 1T3XT BVBA (SPRINGER SBM; licensed version)",
+    "pages": 15,
+    "extracted_doi": "10.1038/s41467-023-43458-x"
+  },
+  "code_availability_hint": "Code availability",
+  "data_availability_hint": "Data availability). Analysis of two serial sections",
+  "crossref": {
+    "title": "High resolution mapping of the tumor microenvironment using integrated single-cell, spatial and in situ analysis",
+    "journal": "Nature Communications",
+    "authors": [
+      "Janesick, Amanda",
+      "Shelansky, Robert",
+      "Gottscho, Andrew D.",
+      "Wagner, Florian",
+      "Williams, Stephen R.",
+      "Rouault, Morgane",
+      "Beliakoff, Ghezal",
+      "Morrison, Carolyn A.",
+      "Oliveira, Michelli F.",
+      "Sicherman, Jordan T.",
+      "Kohlway, Andrew",
+      "Abousoud, Jawad",
+      "Drennon, Tingsheng Yu",
+      "Mohabbat, Seayar H.",
+      ", ",
+      "Taylor, Sarah E. B."
+    ],
+    "published": [
+      2023,
+      12,
+      19
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 850,
+    "license": [
+      "https://creativecommons.org/licenses/by/4.0",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "abstract": "Abstract\n                  Single-cell and spatial technologies that profile gene expression across a whole tissue are revolutionizing the resolution of molecular states in clinical samples. Current commercially available technologies provide whole transcriptome single-cell, whole transcriptome spatial, or targeted in situ gene expression analysis. Here, we combine these technologies to explore tissue heterogeneity in large, FFPE human breast cancer sections. This integrative approach allowed us to explore molecular differences that exist between distinct tumor regions and to identify biomarkers involved in the progression towards invasive carcinoma. Further, we study cell neighborhoods and identify rare boundary cells that sit at the critical myoepithelial border confining the spread of malignant cells. Here, we demonstrate that each technology alone provides information about molecular signatures relevant to understanding cancer heterogeneity; however, it is the integration of these technologies that leads to deeper insights, ushering in discoveries that will progress oncology research and the development of diagnostics and therapeutics."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "file": {
+    "name": "13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf",
+    "path": "08_平台深度解析/reference/13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf",
+    "size_bytes": 12504797,
+    "sha256": "e8bb462fb18d805a95dd97866fabf83d0b8365d7443d1787f47961f896b7fcee"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "Spatial chromatin architecture and accessibility co-profiling of mammalian tissues",
+    "author": "Ping Wang",
+    "subject": "Nature Methods, doi:10.1038/s41592-026-03217-4",
+    "keywords": "",
+    "creation_date": "D:20260826160642+05'30'",
+    "mod_date": "D:20260826160829+05'30'",
+    "producer": "",
+    "pages": 32,
+    "extracted_doi": "10.1038/s41592-026-03217-4"
+  },
+  "code_availability_hint": "Code availability",
+  "data_availability_hint": "Data availability",
+  "crossref": {
+    "title": "Spatial chromatin architecture and accessibility co-profiling of mammalian tissues",
+    "journal": "Nature Methods",
+    "authors": [
+      "Wang, Ping",
+      "Wang, Juan",
+      "Wang, Qixuan",
+      "Youngblood, Mark W.",
+      "Cheng, Yang",
+      "Tao, Bo",
+      "Wong, Josiah Hiu-Yuen",
+      "Luan, Yu",
+      "Yu, Shaojun",
+      "Swaroop, Alok",
+      "Nandoliya, Khizar R.",
+      "Najem, Hinda",
+      "Fu, Yihao",
+      "McCortney, Kathleen",
+      "Zhang, Di",
+      "Diao, Yarui",
+      "Heimberger, Amy B.",
+      "Sonabend, Adam M.",
+      "Horbinski, Craig M.",
+      "Fan, Rong",
+      "Yue, Feng"
+    ],
+    "published": [
+      2026,
+      9,
+      1
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 0,
+    "license": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0"
+    ],
+    "abstract": null
+  }
+}

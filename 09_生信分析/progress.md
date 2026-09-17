@@ -2,9 +2,9 @@
 
 > 自动任务状态文件，每篇论文处理后更新本文件
 
-> 更新于: 2026-09-18 04:15:00
+> 更新于: 2026-09-18 04:10:00
 
-> 总论文数: 33 | ✅ 合规完成: 31 | 🔧 需重做: 0 | ⏳ 待处理: 2
+> 总论文数: 33 | ✅ 合规完成: 33 | 🔧 需重做: 0 | ⏳ 待处理: 0
 
 ---
 
@@ -42,6 +42,8 @@
 | 29 | STARmap | 2018 | Science | Wang | `09_生信分析/STARmap.00029.2018.Science.Wang/` |
 | 30 | STARmap | 2023 | Science | Zeng | `09_生信分析/STARmap.00030.2023.Science.Zeng/` |
 | 31 | STARmap | 2026 | NatProtoc | Ren | `09_生信分析/STARmap.00031.2026.NatProtoc.Ren/` |
+| 32 | IlluminaSpatial | 2023 | NatCommun | Janesick | `09_生信分析/IlluminaSpatial.00032.2023.NatCommun.Janesick/` |
+| 33 | Spatial-ATAC-Hi-C | 2026 | NatMethods | Wang | `09_生信分析/Spatial-ATAC-Hi-C.00033.2026.NatMethods.Wang/` |
 
 ---
 
