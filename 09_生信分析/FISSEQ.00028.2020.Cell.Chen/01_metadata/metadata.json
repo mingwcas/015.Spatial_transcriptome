@@ -1,0 +1,64 @@
+{
+  "file": {
+    "name": "10.2020.Cell.FISSEQ_Alzheimer_disease.pdf",
+    "path": "08_平台深度解析/reference/10.2020.Cell.FISSEQ_Alzheimer_disease.pdf",
+    "size_bytes": 14033864,
+    "sha256": "28e983075f6ff789d16c37474ab331375dfafd284e477553762e2c3503ba0d10"
+  },
+  "pdf": {
+    "format": "PDF 1.7",
+    "title": "Spatial Transcriptomics and In Situ Sequencing to Study Alzheimer’s Disease",
+    "author": "Wei-Ting Chen",
+    "subject": "Cell, 182 (2020) 976-991.e19. doi:10.1016/j.cell.2020.06.038",
+    "keywords": "",
+    "creation_date": "D:20200817152820+05'30'",
+    "mod_date": "D:20200817153210+05'30'",
+    "producer": "",
+    "pages": 36,
+    "extracted_doi": "10.1016/j.cell.2020.06.038"
+  },
+  "code_availability_hint": null,
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Spatial Transcriptomics and In Situ Sequencing to Study Alzheimer’s Disease",
+    "journal": "Cell",
+    "authors": [
+      "Chen, Wei-Ting",
+      "Lu, Ashley",
+      "Craessaerts, Katleen",
+      "Pavie, Benjamin",
+      "Sala Frigerio, Carlo",
+      "Corthout, Nikky",
+      "Qian, Xiaoyan",
+      "Laláková, Jana",
+      "Kühnemund, Malte",
+      "Voytyuk, Iryna",
+      "Wolfs, Leen",
+      "Mancuso, Renzo",
+      "Salta, Evgenia",
+      "Balusu, Sriram",
+      "Snellinx, An",
+      "Munck, Sebastian",
+      "Jurek, Aleksandra",
+      "Fernandez Navarro, Jose",
+      "Saido, Takaomi C.",
+      "Huitinga, Inge",
+      "Lundeberg, Joakim",
+      "Fiers, Mark",
+      "De Strooper, Bart"
+    ],
+    "published": [
+      2020,
+      8
+    ],
+    "publisher": "Elsevier BV",
+    "type": "journal-article",
+    "is_referenced_by_count": 899,
+    "license": [
+      "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "https://www.elsevier.com/legal/tdmrep-license",
+      "http://www.elsevier.com/open-access/userlicense/1.0/"
+    ],
+    "abstract": null
+  }
+}

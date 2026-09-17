@@ -1,0 +1,57 @@
+{
+  "file": {
+    "name": "10.2014.Science.FISSEQ_subcellular_RNA_seq.pdf",
+    "path": "08_平台深度解析/reference/10.2014.Science.FISSEQ_subcellular_RNA_seq.pdf",
+    "size_bytes": 1962550,
+    "sha256": "650bb973f45ff255499de0be7a606dbef0a0790f7f0072918dae136e0244146e"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creation_date": "D:20140329042302-07'00'",
+    "mod_date": "D:20140329042303-07'00'",
+    "producer": "Adobe PDF Library 9.1",
+    "pages": 5,
+    "extracted_doi": "10.1126/science.1250212"
+  },
+  "code_availability_hint": null,
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Highly Multiplexed Subcellular RNA Sequencing in Situ",
+    "journal": "Science",
+    "authors": [
+      "Lee, Je Hyuk",
+      "Daugharthy, Evan R.",
+      "Scheiman, Jonathan",
+      "Kalhor, Reza",
+      "Yang, Joyce L.",
+      "Ferrante, Thomas C.",
+      "Terry, Richard",
+      "Jeanty, Sauveur S. F.",
+      "Li, Chao",
+      "Amamoto, Ryoji",
+      "Peters, Derek T.",
+      "Turczyk, Brian M.",
+      "Marblestone, Adam H.",
+      "Inverso, Samuel A.",
+      "Bernard, Amy",
+      "Mali, Prashant",
+      "Rios, Xavier",
+      "Aach, John",
+      "Church, George M."
+    ],
+    "published": [
+      2014,
+      3,
+      21
+    ],
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "type": "journal-article",
+    "is_referenced_by_count": 968,
+    "license": null,
+    "abstract": "Transcripts Visualized in Situ\n                  \n                    Despite advances, current methods for single-cell sequencing are unable to resolve transcript location within the cell, so\n                    \n                      Lee\n                      et al.\n                    \n                    (p.\n                    1360\n                    , published online 27 February) developed a method of fluorescent in situ RNA sequencing (FISSEQ) that works in vivo to show messenger RNA localization within cells. The method amplifies complementary DNA targets by rolling circle amplification, and then in situ cross-linking locks amplicons to produce ample, highly localized templates for three-dimensional sequencing. The technique was tested in fibroblasts to reveal the differences between individual cells during wound repair.\n                  "
+  }
+}

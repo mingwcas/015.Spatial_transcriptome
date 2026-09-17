@@ -1,0 +1,52 @@
+{
+  "file": {
+    "name": "10.2015.NatProtoc.FISSEQ_RNA_in_situ_sequencing.pdf",
+    "path": "08_平台深度解析/reference/10.2015.NatProtoc.FISSEQ_RNA_in_situ_sequencing.pdf",
+    "size_bytes": 2084640,
+    "sha256": "059f2bcf3edf5b8bc52d656720cdc2afa8fb94cf3922089e1d25f16efea018b9"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creation_date": "D:20150209171245+05'30'",
+    "mod_date": "D:20150209172533+05'30'",
+    "producer": "Adobe PDF Library 7.0",
+    "pages": 17,
+    "extracted_doi": "10.1038/nprot.2014.191"
+  },
+  "code_availability_hint": null,
+  "data_availability_hint": null,
+  "crossref": {
+    "title": "Fluorescent in situ sequencing (FISSEQ) of RNA for gene expression profiling in intact cells and tissues",
+    "journal": "Nature Protocols",
+    "authors": [
+      "Lee, Je Hyuk",
+      "Daugharthy, Evan R",
+      "Scheiman, Jonathan",
+      "Kalhor, Reza",
+      "Ferrante, Thomas C",
+      "Terry, Richard",
+      "Turczyk, Brian M",
+      "Yang, Joyce L",
+      "Lee, Ho Suk",
+      "Aach, John",
+      "Zhang, Kun",
+      "Church, George M"
+    ],
+    "published": [
+      2015,
+      2,
+      12
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 509,
+    "license": [
+      "http://www.springer.com/tdm"
+    ],
+    "abstract": null
+  }
+}

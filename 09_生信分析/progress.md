@@ -2,9 +2,9 @@
 
 > 自动任务状态文件，每篇论文处理后更新本文件
 
-> 更新于: 2026-09-18 03:25:00
+> 更新于: 2026-09-18 03:30:00
 
-> 总论文数: 33 | ✅ 合规完成: 25 | 🔧 需重做: 0 | ⏳ 待处理: 8
+> 总论文数: 33 | ✅ 合规完成: 28 | 🔧 需重做: 0 | ⏳ 待处理: 5
 
 ---
 
@@ -36,6 +36,9 @@
 | 23 | Open-ST | 2024 | Cell | Schott | `09_生信分析/Open-ST.00023.2024.Cell.Schott/` |
 | 24 | Open-ST | 2025 | CellSyst | Pentimalli | `09_生信分析/Open-ST.00024.2025.CellSyst.Pentimalli/` |
 | 25 | Open-ST | 2025 | STARProtoc | Schott | `09_生信分析/Open-ST.00025.2025.STARProtoc.Schott/` |
+| 26 | FISSEQ | 2014 | Science | Lee | `09_生信分析/FISSEQ.00026.2014.Science.Lee/` |
+| 27 | FISSEQ | 2015 | NatProtoc | Lee | `09_生信分析/FISSEQ.00027.2015.NatProtoc.Lee/` |
+| 28 | FISSEQ | 2020 | Cell | Chen | `09_生信分析/FISSEQ.00028.2020.Cell.Chen/` |
 
 ---
 
@@ -49,14 +52,11 @@
 ## 待处理论文（按处理顺序）
 | 顺序 | # | 平台 | 年份 | 期刊 | 第一作者 | PDF 文件 |
 |------|---|------|------|------|------|---------|
-| 1 | 26 | FISSEQ | 2014 | Science | Lee | `10.2014.Science.FISSEQ_subcellular_RNA_seq.pdf` |
-| 2 | 27 | FISSEQ | 2015 | NatProtoc | Lee | `10.2015.NatProtoc.FISSEQ_RNA_in_situ_sequencing.pdf` |
-| 3 | 28 | FISSEQ | 2020 | Cell | Chen | `10.2020.Cell.FISSEQ_Alzheimer_disease.pdf` |
-| 4 | 29 | STARmap | 2018 | Science | Wang | `11.2018.Science.STARmap_3D_intact_tissue.pdf` |
-| 5 | 30 | STARmap | 2023 | Science | Zeng | `11.2023.Science.STARmapPLUS_translatomics_molecular_resolution.pdf` |
-| 6 | 31 | STARmap | 2026 | NatProtoc | Ren | `11.2026.NatProtoc.STARmapPLUS_mRNA_life_cycle.pdf` |
-| 7 | 32 | IlluminaSpatial | 2023 | NatCommun | Janesick | `12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf` |
-| 8 | 33 | Spatial-ATAC-Hi-C | 2026 | NatMethods | Wang | `13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf` |
+| 1 | 29 | STARmap | 2018 | Science | Wang | `11.2018.Science.STARmap_3D_intact_tissue.pdf` |
+| 2 | 30 | STARmap | 2023 | Science | Zeng | `11.2023.Science.STARmapPLUS_translatomics_molecular_resolution.pdf` |
+| 3 | 31 | STARmap | 2026 | NatProtoc | Ren | `11.2026.NatProtoc.STARmapPLUS_mRNA_life_cycle.pdf` |
+| 4 | 32 | IlluminaSpatial | 2023 | NatCommun | Janesick | `12.2023.NatCommun.IlluminaSpatial_mapping_TME.pdf` |
+| 5 | 33 | Spatial-ATAC-Hi-C | 2026 | NatMethods | Wang | `13.2026.NatMethods.Spatial-ATAC-Hi-C_chromatin_architecture.pdf` |
 
 ---
 
