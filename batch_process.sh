@@ -56,11 +56,34 @@ TASK="你是一个学术论文生信分析助手。请从 progress.md 读取待�
 
 log "执行 DeepSeek headless..."
 
+# 模型路由：settings.yaml 里 agent-default-model 指向的 provider 无密钥，
+# 故复制一份 settings 并把默认模型改成有密钥的 xiaomi-token-plan-cn，
+# 再用 --patch 让 headless 读取这份副本（不影响 GUI 的配置）。
+# ponytail: 每次运行重新生成，避免副本过期；provider 密钥由 dsh 凭据库解析。
+BATCH_SETTINGS=/tmp/dsh-batch-settings.yaml
+BATCH_PATCH=/tmp/dsh-batch-model.patch.yml
+python3 - "$HOME/.dsh/settings.yaml" "$BATCH_SETTINGS" <<'PY'
+import sys
+src, dst = sys.argv[1], sys.argv[2]
+text = open(src).read()
+old = "agent-default-model:\n  provider: deepseek-official\n  model: deepseek-flash\n  reasoningEffort: high"
+if old not in text:
+    # 已不是该组合，直接用原文件（用户可能已修好密钥）
+    open(dst, "w").write(text)
+    print("settings: passthrough (default model 非 deepseek-official)")
+else:
+    open(dst, "w").write(text.replace(
+        old,
+        "agent-default-model:\n  provider: xiaomi-token-plan-cn\n  model: mimo-v2.5-pro"))
+    print("settings: 默认模型 -> xiaomi-token-plan-cn/mimo-v2.5-pro")
+PY
+printf -- "- id: settings\n  config:\n    path: %s\n" "$BATCH_SETTINGS" > "$BATCH_PATCH"
+
 # 重试逻辑：API 超载时最多等 5 分钟再试
 MAX_RETRIES=3
 RETRY_DELAY=60
 for attempt in $(seq 1 $MAX_RETRIES); do
-    dsh --profile headless "$TASK" 2>&1 | tee -a "$LOG_FILE"
+    dsh --profile headless --patch "$BATCH_PATCH" "$TASK" 2>&1 | tee -a "$LOG_FILE"
     EXIT_CODE=${PIPESTATUS[0]}
     if [ $EXIT_CODE -eq 0 ]; then
         log "✅ 执行成功"
