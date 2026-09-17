@@ -1,0 +1,12 @@
+{
+  "pdf_path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/07.2024.NatMethods.Slide-seq_comparison_sequencing_based_methods.pdf",
+  "paper_title": "Systematic comparison of sequencing-based spatial transcriptomic methods",
+  "first_author": "You",
+  "year": 2024,
+  "journal": "NatMethods",
+  "platform": "Slide-seq",
+  "sequence": "00018",
+  "doi": "https://doi.org/10.1101/2023.12.03.569744",
+  "data_availability": "Raw count matrices are available at the National Genome Data Center (https://www.cncb.ac.cn/) under BioProject accession code PRJCA020621. The cadasSTre data collections are continually updated on our website genographix.com. The standard sectioning protocol is deposited in protocols.io: dx.doi.org/10.17504/protocols.io.5qpvo379dv4o/v1.",
+  "code_availability": "Scripts used to process the data are available at https://github.com/YOU-k/cadasSTre."
+}

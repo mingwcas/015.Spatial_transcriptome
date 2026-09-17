@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "title": "High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue",
+    "platform": "DBiT-seq",
+    "sequence": "00020",
+    "year": 2020,
+    "journal": "Cell",
+    "first_author": "Liu",
+    "doi": "https://doi.org/10.1016/j.cell.2020.10.026"
+  },
+  "pdf": {
+    "file_name": "08.2020.Cell.DBiTseq_deterministic_barcoding.pdf",
+    "pages": 36,
+    "file_path": "/Users/mingwang/Documents/LabM/015.空间转录组/tmp_平台代表论文/pdfs/08.2020.Cell.DBiTseq_deterministic_barcoding.pdf"
+  },
+  "authors": [
+    "Yang Liu",
+    "Mingyu Yang",
+    "Yanxiang Deng",
+    "Graham Su",
+    "Archibald Enninful",
+    "Cindy C. Guo",
+    "Toma Tebaldi",
+    "Di Zhang",
+    "Dongjoo Kim",
+    "Zhiliang Bai",
+    "Eileen Norris",
+    "Alisia Pan",
+    "Jiatong Li",
+    "Yang Xiao",
+    "Stephanie Halene",
+    "Rong Fan"
+  ],
+  "corresponding_author": "Rong Fan (rong.fan@yale.edu)",
+  "affiliations": [
+    "Department of Biomedical Engineering, Yale University, New Haven, CT 06520, USA",
+    "Yale Stem Cell Center and Yale Cancer Center, Yale School of Medicine, New Haven, CT 06520, USA",
+    "Human and Translational Immunology Program, Yale School of Medicine, New Haven, CT 06520, USA",
+    "Section of Hematology, Department of Internal Medicine, Yale School of Medicine, New Haven, CT 06520, USA"
+  ],
+  "data_availability": "The accession number for the sequencing data reported in this paper is submitted to GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137986.",
+  "code_availability": "Code for sequencing data analysis is available (https://github.com/MingyuYang-Yale/DBiT-seq).",
+  "key_highlights": [
+    "Deterministic barcoding in tissue enables NGS-based spatial multi-omics mapping",
+    "DBiT-seq identified spatial patterning of major tissue types in mouse embryos",
+    "Revealed retinal pigmented epithelium and microvascular endothelium at cellular level",
+    "Direct integration with scRNA-seq data allows for rapid cell type identification"
+  ],
+  "figures": [
+    "Figure 1: Design and Validation of DBiT-Seq",
+    "Figure 2: Spatial Multi-Omics Mapping of Whole Mouse Embryos",
+    "Figure 3: Spatial Multi-Omics Mapping of an Embryonic Mouse Brain",
+    "Figure 4: Spatial Gene Expression Mapping of Early Eye Development",
+    "Figure 5: Global Clustering Analysis of 11 Mouse Embryos from E10, E11, and E12",
+    "Figure 6: Mapping Internal Organs in a E11 Mouse Embryo",
+    "Figure 7: SpatialDE for Automated Feature Identification"
+  ]
+}

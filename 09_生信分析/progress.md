@@ -2,9 +2,9 @@
 
 > 自动任务状态文件，每篇论文处理后更新本文件
 
-> 更新于: 2026-09-18 01:20:00
+> 更新于: 2026-09-18 01:25:00
 
-> 总论文数: 33 | ✅ 合规完成: 17 | 🔧 需重构: 0 | ⏳ 待处理: 16
+> 总论文数: 33 | ✅ 合规完成: 20 | 🔧 需重构: 0 | ⏳ 待处理: 13
 
 ---
 
@@ -29,12 +29,9 @@
 | 15 | Stereo-seq | 2022 | Science | Wei | `09_生信分析/Stereo-seq.00015.2022.Science.Wei/` |
 | 16 | Stereo-seq | 2025 | Cell | Zhao | `09_生信分析/Stereo-seq.00016.2025.Cell.Zhao/` |
 | 17 | Slide-seq | 2021 | NatBiotechnol | Stickels | `09_生信分析/Slide-seq.00017.2021.NatBiotechnol.Stickels/` |
-| 12 | CosMx | 2026 | CellRepMed | Zhang | `09_生信分析/CosMx.00012.2026.CellRepMed.Zhang/` |
-| 13 | GeoMx | 2022 | FrontOncol | Hernandez | `09_生信分析/GeoMx.00013.2022.FrontOncol.Hernandez/` |
-| 14 | GeoMx | 2026 | ImmunoAdv | Park | `09_生信分析/GeoMx.00014.2026.ImmunoAdv.Park/` |
-| 15 | Stereo-seq | 2022 | Science | Wei | `09_生信分析/Stereo-seq.00015.2022.Science.Wei/` |
-| 16 | Stereo-seq | 2025 | Cell | Zhao | `09_生信分析/Stereo-seq.00016.2025.Cell.Zhao/` |
-| 17 | Slide-seq | 2021 | NatBiotechnol | Stickels | `09_生信分析/Slide-seq.00017.2021.NatBiotechnol.Stickels/` |
+| 18 | Slide-seq | 2024 | NatMethods | You | `09_生信分析/Slide-seq.00018.2024.NatMethods.You/` |
+| 19 | Slide-seq | 2025 | NatCommun | Feng | `09_生信分析/Slide-seq.00019.2025.NatCommun.Feng/` |
+| 20 | DBiT-seq | 2020 | Cell | Liu | `09_生信分析/DBiT-seq.00020.2020.Cell.Liu/` |
 
 ---
 
@@ -49,10 +46,7 @@
 
 | 顺序 | # | 平台 | 年份 | 期刊 | 第一作者 | PDF 文件 |
 |------|---|------|------|------|------|---------|
-| 1 | 18 | Slide-seq | 2024 | NatMethods | You | `07.2024.NatMethods.Slide-seq_comparison_sequencing_based_methods.pdf` |
-| 2 | 19 | Slide-seq | 2025 | NatCommun | Feng | `07.2025.NatCommun.Slide-seq_molecular_cartography_DS_brain.pdf` |
-| 3 | 20 | DBiT-seq | 2020 | Cell | Liu | `08.2020.Cell.DBiTseq_deterministic_barcoding.pdf` |
-| 4 | 21 | DBiT-seq | 2023 | NatBiotechnol | Liu | `08.2023.NatBiotechnol.DBiTseq_spatial_CITEseq.pdf` |
+| 1 | 21 | DBiT-seq | 2023 | NatBiotechnol | Liu | `08.2023.NatBiotechnol.DBiTseq_spatial_CITEseq.pdf` |
 | 5 | 22 | DBiT-seq | 2024 | Cell | Bai | `08.2024.Cell.DBiTseq_RNA_biology_FFPE.pdf` |
 | 6 | 23 | Open-ST | 2024 | Cell | Schott | `09.2024.Cell.OpenST_high_res_3D.pdf` |
 | 7 | 24 | Open-ST | 2025 | CellSyst | Pentimalli | `09.2025.CellSyst.OpenST_ECM_3D_TME.pdf` |

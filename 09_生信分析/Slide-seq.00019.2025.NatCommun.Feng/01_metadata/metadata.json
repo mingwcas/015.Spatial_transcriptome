@@ -1,0 +1,49 @@
+{
+  "file": {
+    "name": "07.2025.NatCommun.Slide-seq_molecular_cartography_DS_brain.pdf",
+    "path": "/Users/mingwang/Documents/LabM/015.空间转录组/08_平台深度解析/reference/07.2025.NatCommun.Slide-seq_molecular_cartography_DS_brain.pdf",
+    "size_bytes": 12349956,
+    "sha256": "534fc99df1dc7fc2cfe7941185cbe17e72f5e8b555b21ae1eeb7007fc75d6cc0"
+  },
+  "pdf": {
+    "format": "PDF 1.4",
+    "title": "Molecular cartography of the human down syndrome and trisomic mouse brain",
+    "author": "Min Yi Feng",
+    "subject": "Nature Communications, doi:10.1038/s41467-025-63752-0",
+    "keywords": "",
+    "creation_date": "D:20250929160355+05'30'",
+    "mod_date": "D:20250930182839+02'00'",
+    "producer": "iText® 5.5.13.4 ©2000-2024 iText Group NV (SPRINGER SBM; licensed version)",
+    "pages": 19,
+    "extracted_doi": "10.1038/s41467-025-63752-0"
+  },
+  "code_availability_hint": "Code availability",
+  "data_availability_hint": "Data availability",
+  "crossref": {
+    "title": "Molecular cartography of the human down syndrome and trisomic mouse brain",
+    "journal": "Nature Communications",
+    "authors": [
+      "Feng, Min Yi",
+      "Cao, Wuxinhao",
+      "Tahmasian, Nareh",
+      "Kukreja, Bharti",
+      "Li, Gen",
+      "Rusu, Bianca",
+      "Youn, Ji-Young",
+      "Kalish, Brian T."
+    ],
+    "published": [
+      2025,
+      9,
+      30
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "type": "journal-article",
+    "is_referenced_by_count": 7,
+    "license": [
+      "https://creativecommons.org/licenses/by-nc-nd/4.0",
+      "https://creativecommons.org/licenses/by-nc-nd/4.0"
+    ],
+    "abstract": null
+  }
+}
